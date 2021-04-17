@@ -33,7 +33,7 @@
   }
   
   /* The footer is positioned at the bottom of the page */
-  .footer {
+  footer {
 
     right: 0;
     bottom: 0;
@@ -43,7 +43,7 @@
   }
   
   /* The code styles the text at the bottom of the footer */
-  .footer > .bottom {
+  footer > .bottom {
     right: 0;
     bottom: 0;
     left: 0;
@@ -75,7 +75,7 @@
     height: 500px;
     padding: 10px;
     margin: 0;
-    background-image: url("images/baseball.BG.jpg");
+    background-image: url("../images/baseball.BG.jpg");
     background-attachment: fixed;
     background-position: bottom center;
     background-size: cover;
