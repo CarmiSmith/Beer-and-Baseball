@@ -1,4 +1,3 @@
-from config import password
 import psycopg2
 import os
 import sqlalchemy
@@ -9,14 +8,14 @@ from flask import Flask, jsonify, render_template
 import json
 from flask_cors import CORS
 
-engine = psycopg2.connect("postgresql+psycopg2://postgres:postgres@localhost:5433/MLB")
-cursor = engine.cursor()
-postgreSQL_select_Query = "select * from wins"
-cursor.execute(postgreSQL_select_Query)
-win_records = cursor.fetchall()
-postgreSQL_select_Query1 = "select * from PlayerHome"
-cursor.execute(postgreSQL_select_Query1)    
-people_records = cursor.fetchall()
+engine = create_engine("postgresql+psycopg2://postgres:postgres@localhost:5433/MLB")
+cursor = engine.connect()
+postgreSQL_select_Query = "select * from mlb_wins"
+win_records = cursor.execute(postgreSQL_select_Query)
+postgreSQL_select_Query1 = "select * from mlb_beer_prices"
+beer_records = cursor.execute(postgreSQL_select_Query1)    
+postgreSQL_select_Query1 = "select * from mlb_combined_data"
+beerwin_records = cursor.execute(postgreSQL_select_Query1)    
 
 app = Flask(__name__)
 CORS(app)
@@ -24,39 +23,59 @@ CORS(app)
 def welcome():
     print("Server received request for 'Home' page...")
     return (
-        f"Welcome to the Baseball API!<br/>"
+        f"Welcome to MLB Beer Drinking Guild<br/>"
         f"Available Routes:<br/>"
-        f"/hometown<br/>"
-        f"/salarywindata<br/>"
+        f"/wins<br/>"
+        f"/beerprices<br/>"
+        f"/beerwins<br/>"
 
     )
 
 
 
-@app.route("/salarywindata")
-def teams_salary_win():
+@app.route("/wins")
+def teams_win():
     team_data = []
     for row in win_records:
         teams_dict = {}
         teams_dict["Year"] = row[0]
-        teams_dict["Team ID"] = row[1]
-        teams_dict["Salary"] = row[2]
+        teams_dict["Team"] = row[1]
+        teams_dict["Number_of_Games"] = row[2]
         teams_dict["Wins"] = row[3]
-        teams_dict["Attendance"] =row[4]
         team_data.append(teams_dict)
     return jsonify(team_data)
-@app.route("/hometown")
-def players_home():
 
-    player_home = []
+@app.route("/beerprices")
+def beer_prices():
 
-    for row in people_records:
-        home_dict={}
-        home_dict['State'] = row[0]
-        home_dict['Count'] = row[1]
-        player_home.append(home_dict)
-    print(player_home)
-    return jsonify(player_home)
+    beer_price = []
+
+    for row in beer_records:
+        beer_dict={}
+        beer_dict['Year'] = row[0]
+        beer_dict['Team'] = row[1]
+        beer_dict['Nickname'] = row[2]
+        beer_dict['City'] = row[3]
+        beer_dict['Price'] = float(row[4])
+        beer_dict['Size'] = row[5]
+        beer_dict['Price_per_Ounce'] = float(row[6])
+        beer_price.append(beer_dict)
+    return jsonify(beer_price)
+
+@app.route("/beerwins")
+def beer_wins():
+    beerwin_data = []
+    for row in beerwin_records:
+        beerwin_dict = {}
+        beerwin_dict["team"] = row[0]
+        beerwin_dict["city"] = row[1]
+        beerwin_dict["price"] = float(row[2])
+        beerwin_dict["size"] = row[3]
+        beerwin_dict["price_per_ouce"] = float(row[4])
+        beerwin_dict["number_of_games"] = row[5]
+        beerwin_dict["wins"] = row[6]       
+        beerwin_data.append(beerwin_dict)
+    return jsonify(beerwin_data)
 
 
 if __name__ == "__main__":
