@@ -1,0 +1,218 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <body style="background-color:rgb(95, 108, 110);"></body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="mlb_logo.png" />
+    <title>MLB Drinking Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- setting up the Content, Padding, Border and the Margin  -->
+<body><!-- Setting up the body -->
+    <div class="wrapper">
+    <nav class="navbar navbar-default">
+      <!-- Setting up moving container -->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index_new.html">
+            <img class="nav-bg" src="baseball.BG.jpg" class="vizualization rounded float-right" alt="Temperature Graph:"width="1325"><!-- adding image-->
+            </a>
+          </div>
+        </div>
+ <!-- adding title and popup statement -->  
+</nav>
+<div class="hero text-center">
+  <h2 style="color:rgb(248, 131, 35)">Welcome to MLB Beer Drinkings Guild</h2>
+</p>
+</p>
+  <p style="color:rgb(250, 163, 92)">Let's Get Ready to Stumble...
+  </p>
+</p>
+  <img src="mlb_logo.PNG" class="img-fluid pt-2" alt="Graphs"> 
+</p>
+ <p style="color:rgb(51, 32, 16)"> Play Ball!
+ <!-- Body -->
+ <div class="row">
+
+    <!-- Side Bar / Menu -->
+    <div class="col-lg-2 border-right bg-light text-center">
+        <div class="pt-2">
+            <div class="container p-4 border-bottom link-group">
+                <h7>Interactive Graphs For Beer Cost</h7>
+                <a href="/">
+                    <img src="BBB.jpeg" class="img-fluid pt-2" alt="Graphs">
+                </a>
+            </div>
+            <div class="container p-4 border-bottom link-group">
+                <h7>Interactive Maps For Locations</h7>
+                <a href="/map">
+                    <img src="pinmap.png" class="img-fluid pt-2" alt="Graphs">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Large Data Box and form -->
+    <div style="background-color:rgb(80, 90, 90);"class="jumbotron container p-5 mt-3">
+        <h2 class="display-7" style="color:rgb(90, 117, 204)">Explore the Cost of Beer at the top MLB Statiums!</h2>
+        <hr class="my-4">
+        <p style="color:rgb(236, 146, 104)" class="lead">Choose your stadium to see where you can get the best price of beer!</p>
+        <div class="row border rounded border-dark px-lg-5 py-3 m-2">
+            <div class="col-lg-2 text-md-right">
+                <p style="color:rgb(90, 117, 204)" class="mt-2">Stadium:</p>
+            </div>
+            <div class="col-lg-10 pr-lg-5">
+                <select class="form-control my-1" id="table-selector-dropdown">
+                    <option>Select MBL Team Here</option>
+                    <option>Arizona Diamondbacks</option>
+                    <option>Atlanta Braves</option>
+                    <option>Baltimore Orioles</option>
+                    <option>Boston Red Sox</option>
+                    <option>Chicago Cubs</option>
+                    <option>Chicago White Sox</option>
+                    <option>Cincinnati Reds</option>
+                    <option>Cleveland Indians</option>
+                    <option>Colorado Rockies</option>
+                    <option>Detroit Tigers</option>
+                    <option>Houston Astros</option>
+                    <option>Kansas City Royals</option>
+                    <option> Los Angeles Angels</option>
+                    <option>Los Angeles Dodgers</option>
+                    <option>Miami Marlins</option>
+                    <option>Milwaukee Brewers</option>
+                    <option>Minnesota Twins</option>
+                    <option>MLB Average</option>
+                    <option>New York Mets</option>
+                    <option>New York Yankees</option>
+                    <option>Oakland Athletics</option>
+                    <option>Philadelphia Phillies</option>
+                    <option>Pittsburgh Pirates</option>
+                    <option>San Diego Padres</option>
+                    <option>San Francisco Giants</option>
+                    <option>Seattle Mariners</option>
+                    <option>St. Louis Cardinals</option>
+                    <option>Tampa Bay Rays</option>
+                    <option>Texas Rangers</option>
+                    <option>Toronto Blue Jays</option>
+                    <option>Washington Nationals</option>
+                </select>
+            </div>   
+            <div class="col-lg-2 text-md-right">
+                <p style="color:rgb(90, 117, 204)" class="mt-2">Cost:</p>
+            </div>
+            <div class="col-lg-10 pr-md-5">
+                <select class="form-control my-1" id="x-selector-dropdown">
+                    <option>Select Beer Cost Here</option>
+                    <option>$3.00</option>
+                    <option>$4.00</option>
+                    <option>$4.50</option>
+                    <option>$5.00</option>
+                    <option>$5.25</option>
+                    <option>$5.50</option>
+                    <option>$5.67</option>
+                    <option>$5.75</option>
+                    <option>$5.90</option>
+                    <option>$5.98</option>
+                    <option>$6.00</option>
+                    <option>$6.09</option>
+                    <option>$6.25</option>
+                    <option>$6.50</option>
+                    <option>$6.75</option>
+                    <option>$6.79</option>
+                    <option>$6.82</option>
+                    <option>$7.00</option>
+                    <option>$7.25</option>
+                    <option>$7.34</option>
+                    <option>$7.50</option>
+                    <option>$7.75</option>
+                    <option>$8.00</option>
+                    <option>$8.25</option>
+                    <option>$8.50</option>
+                    <option>$9.00</option>
+                    <option>$10.00</option>
+                </select>
+            </div>
+
+        </div>
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="remove-zeros">
+                        <label style="color:rgb(90, 117, 204)" class="form-check-label" for="removeZeros">Remove 0 Values</label>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-lg-right pt-2">
+                    <p style="color:rgb(105, 174, 238);font-size:15px">Submit your choices of stadiums to see the results below!</p>
+                </div>
+                <div class="col-lg-2 text-lg-left">
+                    <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
+                </div>
+            </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="col-lg-10 text-center mb-5">
+
+ <!-- Table -->
+ <div style="background-color:rgb(135, 146, 146);"class="container-lg col-14 p-1 mt-4 mx-auto pt-4 border-top">
+    <h3 style="color:rgb(16, 9, 77)" id="table-title">Locations that give you more bang for your buck at the MLB</h3>
+    <div class="table-responsive">
+        <table id="data-table" data-toggle="table">
+            <thead>
+                <tr>
+                    <th data-field="name" data-sortable="true">MLB Team</th>
+                    <th data-field="x" data-sortable="true">Beer Cost</th>
+                    <th data-field="y" data-sortable="true">Wins or Losses</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+</div>
+</div>
+
+
+</thead>
+<tbody></tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+       <!-- Footer -->
+        <div class="row bg-dark border-top border-dark p-2">
+            <div class="col-9">
+                <p class="text-light pt-1">* This website is not affiliated, endorsed, or sponsored by the Major League Baseball. Stats courtesy of <a href="https://www.baseball-reference.com/leagues/MLB/index.shtml" class="text-light">baseballreference.com</a></p>
+    </div>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="static/js/plot.js"></script>
+
+
+
+</body>
+
+
+</html>

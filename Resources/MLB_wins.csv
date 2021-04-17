@@ -1,0 +1,151 @@
+Year,Team,Number_of_Games,Wins
+2018,Arizona Diamondbacks,163,82
+2016,Arizona Diamondbacks,162,69
+2015,Arizona Diamondbacks,162,79
+2014,Arizona Diamondbacks,162,64
+2013,Arizona Diamondbacks,163,81
+2018,Atlanta Braves,163,90
+2016,Atlanta Braves,162,68
+2015,Atlanta Braves,162,67
+2014,Atlanta Braves,162,79
+2013,Atlanta Braves,163,96
+2018,Baltimore Orioles,163,47
+2016,Baltimore Orioles,162,89
+2015,Baltimore Orioles,162,81
+2014,Baltimore Orioles,162,96
+2013,Baltimore Orioles,163,85
+2018,Boston Red Sox,163,108
+2016,Boston Red Sox,162,93
+2015,Boston Red Sox,162,78
+2014,Boston Red Sox,162,71
+2013,Boston Red Sox,163,97
+2018,Chicago Cubs,163,95
+2016,Chicago Cubs,162,103
+2015,Chicago Cubs,162,97
+2014,Chicago Cubs,162,73
+2013,Chicago Cubs,163,66
+2018,Chicago White Sox,163,62
+2016,Chicago White Sox,162,78
+2015,Chicago White Sox,162,76
+2014,Chicago White Sox,162,73
+2013,Chicago White Sox,163,63
+2018,Cincinnati Reds,163,67
+2016,Cincinnati Reds,162,68
+2015,Cincinnati Reds,162,64
+2014,Cincinnati Reds,162,76
+2013,Cincinnati Reds,163,90
+2018,Cleveland Indians,163,91
+2016,Cleveland Indians,162,94
+2015,Cleveland Indians,162,81
+2014,Cleveland Indians,162,85
+2013,Cleveland Indians,163,92
+2018,Colorado Rockies,163,91
+2016,Colorado Rockies,162,75
+2015,Colorado Rockies,162,68
+2014,Colorado Rockies,162,66
+2013,Colorado Rockies,163,74
+2018,Detroit Tigers,163,64
+2016,Detroit Tigers,162,86
+2015,Detroit Tigers,162,74
+2014,Detroit Tigers,162,90
+2013,Detroit Tigers,163,93
+2018,Houston Astros,163,103
+2016,Houston Astros,162,84
+2015,Houston Astros,162,86
+2014,Houston Astros,162,70
+2013,Houston Astros,163,51
+2018,Kansas City Royals,163,58
+2016,Kansas City Royals,162,81
+2015,Kansas City Royals,162,95
+2014,Kansas City Royals,162,89
+2013,Kansas City Royals,163,86
+2018,Los Angeles Angels,163,80
+2016,Los Angeles Angels,162,74
+2015,Los Angeles Angels,162,85
+2014,Los Angeles Angels,162,98
+2013,Los Angeles Angels,163,78
+2018,Los Angeles Dodgers,163,92
+2016,Los Angeles Dodgers,162,91
+2015,Los Angeles Dodgers,162,92
+2014,Los Angeles Dodgers,162,94
+2013,Los Angeles Dodgers,163,92
+2018,Miami Marlins,163,63
+2016,Miami Marlins,162,79
+2015,Miami Marlins,162,71
+2014,Miami Marlins,162,77
+2013,Miami Marlins,163,62
+2018,Milwaukee Brewers,163,96
+2016,Milwaukee Brewers,162,73
+2015,Milwaukee Brewers,162,68
+2014,Milwaukee Brewers,162,82
+2013,Milwaukee Brewers,163,74
+2018,Minnesota Twins,163,78
+2016,Minnesota Twins,162,59
+2015,Minnesota Twins,162,83
+2014,Minnesota Twins,162,70
+2013,Minnesota Twins,163,66
+2018,New York Mets,163,77
+2016,New York Mets,162,87
+2015,New York Mets,162,90
+2014,New York Mets,162,79
+2013,New York Mets,163,74
+2018,New York Yankees,163,100
+2016,New York Yankees,162,84
+2015,New York Yankees,162,87
+2014,New York Yankees,162,84
+2013,New York Yankees,163,85
+2018,Oakland Athletics,163,97
+2016,Oakland Athletics,162,69
+2015,Oakland Athletics,162,68
+2014,Oakland Athletics,162,88
+2013,Oakland Athletics,163,96
+2018,Philadelphia Phillies,163,80
+2016,Philadelphia Phillies,162,71
+2015,Philadelphia Phillies,162,63
+2014,Philadelphia Phillies,162,73
+2013,Philadelphia Phillies,163,73
+2018,Pittsburgh Pirates,163,82
+2016,Pittsburgh Pirates,162,78
+2015,Pittsburgh Pirates,162,98
+2014,Pittsburgh Pirates,162,88
+2013,Pittsburgh Pirates,163,94
+2018,San Diego Padres,163,66
+2016,San Diego Padres,162,68
+2015,San Diego Padres,162,74
+2014,San Diego Padres,162,77
+2013,San Diego Padres,163,76
+2018,San Francisco Giants,163,73
+2016,San Francisco Giants,162,87
+2015,San Francisco Giants,162,84
+2014,San Francisco Giants,162,88
+2013,San Francisco Giants,163,76
+2018,Seattle Mariners,163,89
+2016,Seattle Mariners,162,86
+2015,Seattle Mariners,162,76
+2014,Seattle Mariners,162,87
+2013,Seattle Mariners,163,71
+2018,St. Louis Cardinals,163,88
+2016,St. Louis Cardinals,162,86
+2015,St. Louis Cardinals,162,100
+2014,St. Louis Cardinals,162,90
+2013,St. Louis Cardinals,163,97
+2018,Tampa Bay Rays,163,90
+2016,Tampa Bay Rays,162,68
+2015,Tampa Bay Rays,162,80
+2014,Tampa Bay Rays,162,77
+2013,Tampa Bay Rays,163,92
+2018,Texas Rangers,163,67
+2016,Texas Rangers,162,95
+2015,Texas Rangers,162,88
+2014,Texas Rangers,162,67
+2013,Texas Rangers,163,91
+2018,Toronto Blue Jays,163,73
+2016,Toronto Blue Jays,162,89
+2015,Toronto Blue Jays,162,93
+2014,Toronto Blue Jays,162,83
+2013,Toronto Blue Jays,163,74
+2018,Washington Nationals,163,82
+2016,Washington Nationals,162,95
+2015,Washington Nationals,162,83
+2014,Washington Nationals,162,96
+2013,Washington Nationals,163,86
