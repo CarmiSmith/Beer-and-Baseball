@@ -26,3 +26,7 @@ for (var i = 0; i < MLB_Beer_Prices.length; i++) {
     .bindPopup("<h1>" + cities + "</h1> <hr> <h3>Price of Beer Per Ounce " + beer + "</h3> <hr> <h3>Number of Wins" + wins)
     .addTo(myMap);
 }
+
+
+
+
