@@ -1,4 +1,4 @@
-const ROOT_URL = 'https://namhere.herokuapp.com'
+//const ROOT_URL = 'https://namhere.herokuapp.com'
 
 // Define a function that will create charts for given sample
   function buildCharts(selection) {
@@ -9,14 +9,8 @@ const ROOT_URL = 'https://namhere.herokuapp.com'
   
         // Filter the data to get the sample's OTU data
         var filtData = data;
-        //var sampleDict = filtData.filter(item => item.id == selection)[0];
-        //var sampleValues = sampleDict.sample_values; 
-        //var idValues = sampleDict.otu_ids;
-        //var barLabels = idValues.slice(0, 10).reverse();
-        //var newLabels = [];
-        //barLabels.forEach((label) => {
-            //newLabels.push("OIT " + label);
         });
+
         var hovertext = mlb_beer_prices;
         
         // Create bar chart in correct location
@@ -113,14 +107,12 @@ const ROOT_URL = 'https://namhere.herokuapp.com'
                     $(this).html(toTitleCase(arr[index-1]))
                 }
             })
-        }
-
-        
+        } 
     }
-
 }
-function createBarchart(table, x, y, zeros) {
-    d3.json(`${ROOT_URL}/${toSnakeCase(table)}/${toSnakeCase(x)}/${toSnakeCase(y)}`).then((d) =>{
+
+function createScatter(table, x, y, zeros) {
+    d3.json(`${'http://localhost:5000/wins'}/${toSnakeCase(table)}/${toSnakeCase(x)}/${toSnakeCase(y)}`).then((d) =>{
 
         // check for incorrect input
         if(d.length === 0){
@@ -136,7 +128,7 @@ function createBarchart(table, x, y, zeros) {
         // update table
         createTable(d, x, y)
 
-        // create bar plot
+        // create scatter plot
         var layout = makeLayout(toTitleCase(x), toTitleCase(y))
         var plot = document.getElementById('plot');
 
@@ -146,13 +138,139 @@ function createBarchart(table, x, y, zeros) {
             y: Object.values(d[toSnakeCase(y)]),
             text: Object.values(d.name),
             mode: 'markers',
-            type: 'barchart'
+            type: 'scatter'
         }
+
+        // setup data
+        var data = [trace]
+
+        // create plot
+        Plotly.newPlot(plot, data, layout, { responsive: true, displayModeBar: false })
+    })
+}
+
+function updateScatter() {
+
+    // get table selection
+    var selector = document.getElementById('table-selector-dropdown')
+    var table = selector.options[selector.selectedIndex].value.toLowerCase()
+
+    // get x choice
+    var xAxis = document.getElementById('x-selector-dropdown')
+    xAxis = xAxis.options[xAxis.selectedIndex].value.toLowerCase()
+
+    // get y choice
+    var yAxis = document.getElementById('y-selector-dropdown')
+    yAxis = yAxis.options[yAxis.selectedIndex].value.toLowerCase()
+
+    // get remove zero option
+    var removeZeros = document.getElementById('remove-zeros')
+    removeZeros = removeZeros.checked
+
+    //create scatter plot
+    createScatter(table, xAxis, yAxis, removeZeros)
+}
+
+function updateSelectors() {
+
+    var selector = document.getElementById('table-selector-dropdown')
+    var table = selector.options[selector.selectedIndex].value.toLowerCase()
+
+    // axies dropdowns
+    var x = document.getElementById('x-selector-dropdown')
+    var y = document.getElementById('y-selector-dropdown')
+
+    var options = ''
+    d3.json(`${'http://localhost:5000/wins'}/${toSnakeCase(table)}`).then((d) => {
         
-        
+        // create options
+        for (var selection of d) {
+            options += "<option>" + toTitleCase(selection) + "</option>"
+        }
+
+        // add options
+        x.innerHTML = options
+        y.innerHTML = options
+    })
+
+}
+
+function toTitleCase(str) {
+    
+    // split string into words
+    var words = str.split('_')
+    var outputWords = ''
+
+    // concatenate words together with space
+    for(var word of words){
+        outputWords += word + ' '
+    }
+
+    // convert to proper casing
+    var output = outputWords.charAt(0).toUpperCase() + outputWords.substr(1).toLowerCase()
+
+    return output.trim();
+}
+
+function toSnakeCase(str) {
+
+    // split string into words
+    var words = str.split(' ')
+    var outputWords = ''
+
+    // concatenate words together with space
+    if(words.length > 1){
+        for (var word of words) {
+            outputWords += word + '_'
+        }
+        outputWords = outputWords.substr(0, outputWords.length - 1)
+    } else {
+        outputWords = str
+    }
+
+    // convert to proper casing
+    var output = outputWords.toLowerCase().trim()
+
+    return output;
+
+}
+
+function removeZeros(obj, x, y) {
+
+    /* Removes entries that have 0s in x or y values. */
+
+    var clean = {}
+
+    // setup arrays
+    clean[x] = []
+    clean[y] = []
+    clean['name'] = []
+
+    // loop through object
+    for (var i = 0; i < Object.keys(obj[x]).length; i++) {
+        // if the values are not empty, add to the new object
+        if (obj[x][i] != 0 && obj[y][i] != 0) {
+            clean[x].push(obj[x][i])
+            clean[y].push(obj[y][i])
+            clean['name'].push(obj['name'][i])
+        }
+    }
+
+    return clean
+
+}
+
+$(document).ready(() => {
+
+    // default graph
+    createScatter('team_name', 'beer_cost', 'wins')
+    
+    // create event listener
+    d3.selectAll('#submitBtn').on('click', updateScatter)
+    d3.selectAll('#table-selector-dropdown').on('change', updateSelectors)
+})
 
 
-        
         tickmode: "linear"
       }
     };
