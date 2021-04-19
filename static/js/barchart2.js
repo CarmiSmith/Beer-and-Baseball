@@ -14,7 +14,7 @@
         
         //specify the location of the metadata and update it
         var data = d3.select('#x-selector-dropdown');
-        map.html('');
+        data.html('');
 
         //add to html
         Object.defineProperties(sample).forEach((key) => {
