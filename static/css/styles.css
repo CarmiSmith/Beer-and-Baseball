@@ -23,6 +23,12 @@
     overflow: auto;
   }
 
+  /* The hover border*/
+  .active, .panel:hover {
+    border-color:rgb(234, 250, 8);
+    border-style: solid;  
+  }
+
   /* This CSS styles the ufo icon in the navbar */
 .nav-bg {
     position: absolute;
