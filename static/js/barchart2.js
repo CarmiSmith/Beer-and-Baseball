@@ -5,22 +5,40 @@
   
     // Read the json data
     d3.jsond3.json('http://localhost:5000/wins').then((data) => {
-        console.log(data) // this is the data from the flask app
+       // console.log(data) // this is the data from the flask app
   
         // Filter the data to get the sample's OTU data
         var filtData = data;
+
+        var sample = filtData.filter(item => item.id.toString() == selections)[0];
+        
+        //specify the location of the metadata and update it
+        var data = d3.select('#x-selector-dropdown');
+        map.html('');
+
+        //add to html
+        Object.defineProperties(sample).forEach((key) => {
+            data.append('h2').text(key[0].toUpperCase() + ": " +key[1]+ "\n");
+        });
         });
 
-        var hovertext = mlb_beer_prices;
+    }
+
+    function makeLayout(xAxis, yAxis) {
+        // update headers
+        document.getElementById("plot-title").innerText = xAxis + ' And ' + yAxis;
+        document.getElementById("table-title").innerText = xAxis + ' And ' + yAxis;
+
+        //var hovertext = mlb_beer_prices;
         
         // Create bar chart in correct location
-        var barTrace = {
-            type: "bar",
-            y: team,
-            x: wins,
-            text: hovertext,
-            orientation: 'h'
-        };
+      //  var barTrace = {
+      //      type: "bar",
+      //      y: team,
+      //      x: wins,
+      //      text: hovertext,
+      //      orientation: 'h'
+      //  };
   
         var barData = [barTrace];
   
@@ -33,8 +51,8 @@
             t: 0
         },
       yaxis: {
-        title: "Team",
-        text: Team,
+        title: {
+        text: xAxis,
         font: {
         family: 'Sans Serif',
         size: 20,
@@ -43,14 +61,15 @@
        },
        
        xaxis: {
-       title: "Cost",    
-         text: Cost,
+       title: {  
+         text: yAxis,
          font: {
          family: 'Sans Serif',
          size: 20,
          color: '#4974a5'
        }
-       },
+       }
+    }
     }
        return barLayout
     }
@@ -111,18 +130,13 @@
     }
 }
 
-function createScatter(table, x, y, zeros) {
+function createScatter(table, x, y) {
     d3.json(`${'http://localhost:5000/wins'}/${toSnakeCase(table)}/${toSnakeCase(x)}/${toSnakeCase(y)}`).then((d) =>{
 
         // check for incorrect input
         if(d.length === 0){
             alert('Please choose different x and y values!')
             return
-        }
-
-        // remove zero values
-        if (zeros) {
-            d = removeZeros(d, toSnakeCase(x), toSnakeCase(y))
         }
 
         // update table
@@ -163,12 +177,8 @@ function updateScatter() {
     var yAxis = document.getElementById('y-selector-dropdown')
     yAxis = yAxis.options[yAxis.selectedIndex].value.toLowerCase()
 
-    // get remove zero option
-    var removeZeros = document.getElementById('remove-zeros')
-    removeZeros = removeZeros.checked
-
     //create scatter plot
-    createScatter(table, xAxis, yAxis, removeZeros)
+    createScatter(table, xAxis, yAxis)
 }
 
 function updateSelectors() {
@@ -195,71 +205,6 @@ function updateSelectors() {
 
 }
 
-function toTitleCase(str) {
-    
-    // split string into words
-    var words = str.split('_')
-    var outputWords = ''
-
-    // concatenate words together with space
-    for(var word of words){
-        outputWords += word + ' '
-    }
-
-    // convert to proper casing
-    var output = outputWords.charAt(0).toUpperCase() + outputWords.substr(1).toLowerCase()
-
-    return output.trim();
-}
-
-function toSnakeCase(str) {
-
-    // split string into words
-    var words = str.split(' ')
-    var outputWords = ''
-
-    // concatenate words together with space
-    if(words.length > 1){
-        for (var word of words) {
-            outputWords += word + '_'
-        }
-        outputWords = outputWords.substr(0, outputWords.length - 1)
-    } else {
-        outputWords = str
-    }
-
-    // convert to proper casing
-    var output = outputWords.toLowerCase().trim()
-
-    return output;
-
-}
-
-function removeZeros(obj, x, y) {
-
-    /* Removes entries that have 0s in x or y values. */
-
-    var clean = {}
-
-    // setup arrays
-    clean[x] = []
-    clean[y] = []
-    clean['name'] = []
-
-    // loop through object
-    for (var i = 0; i < Object.keys(obj[x]).length; i++) {
-        // if the values are not empty, add to the new object
-        if (obj[x][i] != 0 && obj[y][i] != 0) {
-            clean[x].push(obj[x][i])
-            clean[y].push(obj[y][i])
-            clean['name'].push(obj['name'][i])
-        }
-    }
-
-    return clean
-
-}
-
 $(document).ready(() => {
 
     // default graph
@@ -271,8 +216,8 @@ $(document).ready(() => {
 })
 
 
-        tickmode: "linear"
-      }
-    };
+//        tickmode: "linear"
+ //     }
+ //   };
   
-        Plotly.newPlot("bar", barData, barLayout);
+ //       Plotly.newPlot("bar", barData, barLayout);

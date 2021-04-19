@@ -1,3 +1,5 @@
+
+
 import psycopg2
 import os
 import sqlalchemy
@@ -23,18 +25,7 @@ app = Flask(__name__)
 CORS(app)
 @app.route('/')
 def welcome():
-    print("Server received request for 'Home' page...")
-    return (
-        f"Welcome to MLB Beer Drinking Guild<br/>"
-        f"Available Routes:<br/>"
-        f"/wins<br/>"
-        f"/beerprices<br/>"
-        f"/beerwins<br/>"
-        f"/averages<br/>"
-
-    )
-
-
+        return render_template(index_new.html)
 
 @app.route("/wins")
 def teams_win():
