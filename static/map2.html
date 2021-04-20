@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="mlb_logo.png"/>
+    <title>MLB Drinking Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+
+        <!-- Header Bar -->
+        <!-- <div class="row border-bottom bg-dark p-5">
+            <div class="col text-center">
+                <h1 class="text-light">NFL Passing and Rushing Statistics Dashboard</h1>
+            </div>
+        </div> -->
+
+        <div class="wrapper">
+            <nav class="navbar navbar-default">
+              <!-- Setting up moving container -->
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="index_new.html">
+                    <img class="nav-bg" src="images/baseball.BG.jpg" class="vizualization rounded float-right" alt="Temperature Graph:"width="1325"><!-- adding image-->
+                    </a>
+                  </div>
+                </div>
+         <!-- adding title and popup statement -->  
+        </nav>
+        <div class="hero text-center">
+            <br>
+            <br>
+          <h2 class="ml13" style="color:rgb(248, 131, 35); font-size: 50px">Welcome to MLB Beer Drinkings Guild</h2>
+        </p>
+        <br>
+        </p>
+          <p style="color:rgb(255, 254, 254); font-size: 40px">Let's Get Ready to Stumble...
+          </p>
+        </p>
+        <br>
+          <img src="images/mlb_logo.PNG" class="img-fluid pt-2" alt="Graphs"> 
+          <br>
+          <br>
+        </p>
+         <h2 class="ml13" style="color:rgb(253, 253, 253); font-size: 50px; font:courier"> Play Ball</h2>
+        <!-- Body -->
+        <div class="row">
+
+            <!-- Side Bar / Menu -->
+            <div class="col-lg-2 border-right bg-light text-center" id="side">
+                <div class="pt-2">
+                    <div class="container p-4 border-bottom link-group">
+                        <h5>Interactive Graphs For Beer Cost</h5>
+                        <a href="/">
+                            <img src="static/images/graphs.png" class="img-fluid pt-2" alt="Graphs">
+                        </a>
+                    </div>
+                    <div class="container p-4 border-bottom link-group">
+                        <h5>Interactive Maps For Locations</h5>
+                        <a href="/">
+                            <img src="static/images/maps.png" class="img-fluid pt-2" alt="Graphs">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="col-lg-10 text-center mb-5">
+
+                <!-- Jumbotron and form -->
+                <div class="jumbotron container p-5 mt-3">
+                    <h1 class="display-4">Explore MLB Dataset!</h1>
+                    <hr class="my-4">
+                    <p class="lead">Have you ever wondered what the price of beer is at all MLB stadiums?  Well lets take a look at the average price 
+                        of beer at each stadium and compare it to the team wins as well.  
+                    </p>
+                    <!-- <div class="row border rounded border-dark px-lg-5 py-3 m-2">
+                        <div class="col-lg-2 text-lg-right">
+                            <p class="mt-2">Type:</p>
+                        </div>
+                        <div class="col-lg-10 pr-lg-5">
+                            <select class="form-control my-1" id="table-selector-dropdown">
+                                <option>Passing</option>
+                                <option>Rushing</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2 text-lg-right">
+                            <p class="mt-2">Stat:</p>
+                        </div>
+                        <div class="col-lg-10 pr-lg-5">
+                            <select class="form-control my-1" id="x-selector-dropdown">
+                                {% for option in options %}
+                                <option>{{option}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-lg-10 text-lg-right pt-2">
+                            <p>Submit your choices to see the results below!</p>
+                        </div>
+                        <div class="col-lg-2 text-lg-left">
+                            <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <!-- Map -->
+                <div class="container border py-3 rounded">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="row bg-dark border-top border-dark p-3">
+            <div class="col-9">
+                <p class="text-light pt-3">* This website is not affiliated, endorsed, or sponsored by the Major League Baseball. Stats courtesy of <a href="https://www.baseball-reference.com/leagues/MLB/index.shtml" class="text-light">baseballreference.com</a></p>
+            </div>
+            <!-- <div class="col">
+                <p class="text-light">Created by Fredrick Hermann, October 2020</p>
+                <p class="text-light">Stats from <a href="https://www.kaggle.com/kendallgillies/nflstatistics"
+                        class="text-light">Kendall Gillies</a></p>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>

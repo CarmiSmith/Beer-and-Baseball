@@ -21,7 +21,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 // An array containing each city's name, location, and population
 var cities = MLB_Beer_Prices.City;
-var beer = MLB_Beer_Prices.Price_per_Ounce
+var beer = average(round(MLB_Beer_Prices.Price_per_Ounce),2)
 var wins = MLB_win.Wins
 
 // Loop through the cities array and create one marker for each city, bind a popup containing its name and population add it to the map
@@ -33,6 +33,3 @@ for (var i = 0; i < MLB_Beer_Prices.length; i++) {
 }
 })
 }
-
-
-
