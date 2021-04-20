@@ -20,12 +20,14 @@ postgreSQL_select_Query1 = "select * from mlb_combined_data"
 beerwin_records = cursor.execute(postgreSQL_select_Query1)    
 postgreSQL_select_Query1 = "select * from average"
 average_records = cursor.execute(postgreSQL_select_Query1)   
+postgreSQL_select_Query1 = "select * from teambeers"
+teambeers_records = cursor.execute(postgreSQL_select_Query1)   
 
 app = Flask(__name__)
 CORS(app)
 @app.route('/')
 def welcome():
-        return render_template(index_new.html)
+        return render_template(index_new1.html)
 
 @app.route("/wins")
 def teams_win():
@@ -80,6 +82,18 @@ def beer_average ():
         avg_dict["Average_Price_per_Ounce"] = float(row[1])
         beer_avg_data.append(avg_dict)
     return jsonify(beer_avg_data)
+
+@app.route("/teambeers")
+def team_beer ():
+    team_beer_data = []
+    for row in teambeers_records:
+        team_beer_dict = {}
+        team_beer_dict ["team"] = row[0]
+        team_beer_dict ["Average_Price_per_Ounce"] = float(row[1])
+        team_beer_dict ["year"] = row[2]
+        team_beer_dict ["wins"] = row[3]
+        team_beer_data.append(team_beer_dict)
+    return jsonify(team_beer_data)
 
 if __name__ == "__main__":
     app.run(debug=True)
