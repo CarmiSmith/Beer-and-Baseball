@@ -1,5 +1,7 @@
-
-
+//var teamName = d3.select('#table-selector-dropdown')
+//var baseballData = data;
+// console.log("baseballData")
+// console.log(baseballData)
 function makeLayout(xAxis, yAxis) {
 
 
@@ -37,6 +39,7 @@ function makeLayout(xAxis, yAxis) {
     }
 
     return layout
+   
 }
 
 function createTable(d, x, y) {
