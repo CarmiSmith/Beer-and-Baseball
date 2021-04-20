@@ -39,31 +39,34 @@ function buildCharts(selection) {
             newLabels.push("Team " + label);
         });
         var hovertext = sampleDict.team; 
+
+              // Create bar chart in correct location
+      var barTrace = {
+        type: "bar",
+        y: newLabels,
+        x: sampleValues.slice(0, 10).reverse(),
+        text: hovertext.slice(0, 10).reverse(),
+        orientation: 'h'
+    };
+
+      var barData = [barTrace];
+        // Create the layout variable
+      var barLayout = {
+          title: "Beer and Baseball",
+          yaxis: {
+          tickmode: "linear"
+          }
+      };
+
+      Plotly.newPlot("bar", barData, barLayout);
       })
       // Filter the data to get the sample's OTU data
       
 
       
-      // Create bar chart in correct location
-      var barTrace = {
-          type: "bar",
-          y: newLabels,
-          x: sampleValues.slice(0, 10).reverse(),
-          text: hovertext.slice(0, 10).reverse(),
-          orientation: 'h'
-      };
 
-      var barData = [barTrace];
 
-  // Create the layout variable
-  var barLayout = {
-    title: "Beer and Baseball",
-    yaxis: {
-      tickmode: "linear"
-    }
-  };
 
-      Plotly.newPlot("bar", barData, barLayout);
 
       // Create bubble chart in correct location
       var bubbleTrace = {
