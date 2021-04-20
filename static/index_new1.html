@@ -51,26 +51,25 @@
  <div class="row">
 
     <!-- Side Bar / Menu -->
-    <div style="position:relative; left:40px; top:85px">
-    <div class="col-lg-5 border-right bg-light text-center">
-        <div class="pt-4">
+    <div style="position:relative; left:40px; top:190px">
+    <div class="col-lg-2 border-right bg-light text-center">
+        <div class="pt-2">
             <div class="container p-4 border-bottom link-group">
                 <h7>Interactive Graphs For Beer Cost</h7>
                 <a href="/">
-                    <img class="panel" src="images/BBB.jpeg" class="img-fluid pt-4" width="125" alt="Graphs">
+                    <img src="images/BBB.jpeg" class="img-fluid pt-2" alt="Graphs">
                 </a>
             </div>
             <div class="container p-4 border-bottom link-group">
                 <h7>Interactive Maps For Locations</h7>
                 <a href="/map">
-                    <img class="panel" src="images/pinmap.png" class="img-fluid pt-4" width="125" alt="Graphs">
+                    <img src="images/pinmap.png" class="img-fluid pt-2" alt="Graphs">
                 </a>
             </div>
         </div>
     </div>
     </div>
     <!-- Large Data Box and form -->
-    <div style="position:relative; left:40px; top:-125px">
     <div style="position:relative; left:290px; top:-285px">
     <div style="background-color:rgb(80, 90, 90);"class="jumbotron container p-5 mt-3">
         <h2 class="display-7" style="color:rgb(39, 45, 66)">Explore the Cost of Beer at the top MLB Statiums!</h2>
@@ -78,19 +77,60 @@
         <p style="color:rgb(252, 251, 250)" class="lead">Choose your stadium to see where you can get the best price of beer!</p>
         <div class="row border rounded border-dark px-lg-5 py-3 m-2">
             <div class="col-lg-2 text-md-right">
-                <p style="color:rgb(29, 38, 70)" class="mt-2">Team:</p>
+                <p style="color:rgb(29, 38, 70)" class="mt-2">Teams:</p>
             </div>
             <div class="col-lg-10 pr-lg-5">
                 <select class="form-control my-1" id="table-selector-dropdown">
                     <option>Select MBL Team Here</option>
+                    <option>Arizona Diamondbacks</option>
+                    <option>Atlanta Braves</option>
+                    <option>Baltimore Orioles</option>
+                    <option>Boston Red Sox</option>
+                    <option>Chicago Cubs</option>
+                    <option>Chicago White Sox</option>
+                    <option>Cincinnati Reds</option>
+                    <option>Cleveland Indians</option>
+                    <option>Colorado Rockies</option>
+                    <option>Detroit Tigers</option>
+                    <option>Houston Astros</option>
+                    <option>Kansas City Royals</option>
+                    <option> Los Angeles Angels</option>
+                    <option>Los Angeles Dodgers</option>
+                    <option>Miami Marlins</option>
+                    <option>Milwaukee Brewers</option>
+                    <option>Minnesota Twins</option>
+                    <option>MLB Average</option>
+                    <option>New York Mets</option>
+                    <option>New York Yankees</option>
+                    <option>Oakland Athletics</option>
+                    <option>Philadelphia Phillies</option>
+                    <option>Pittsburgh Pirates</option>
+                    <option>San Diego Padres</option>
+                    <option>San Francisco Giants</option>
+                    <option>Seattle Mariners</option>
+                    <option>St. Louis Cardinals</option>
+                    <option>Tampa Bay Rays</option>
+                    <option>Texas Rangers</option>
+                    <option>Toronto Blue Jays</option>
+                    <option>Washington Nationals</option>
                 </select>
             </div>   
+            
             <div class="col-lg-2 text-md-right">
                 <p style="color:rgb(16, 26, 58)" class="mt-2">Cost:</p>
             </div>
             <div class="col-lg-10 pr-md-5">
                 <select class="form-control my-1" id="x-selector-dropdown">
                     <option>Select Beer Cost Here</option>
+                </select>
+            </div>
+            <div class="col-lg-2 text-md-right">
+                <p style="color:rgb(16, 26, 58)" class="mt-2">Wins:</p>
+            </div>
+            <div class="col-lg-10 pr-md-5">
+                <select class="form-control my-1" id="y-selector-dropdown">
+                    <option>Wins</option>
+                    <option>Losses</option>
                 </select>
             </div>
 
@@ -109,6 +149,9 @@
                 <div class="col-lg-2 text-lg-left">
                     <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
                 </div>
+                <div class="col-md-5">
+                    <div id="bar"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -123,7 +166,7 @@
 </div>
 
  <!-- Table -->
- <div style="position:relative; left:270px; top:-250px">
+ <div style="position:relative; left:100px; top:-300px">
  <div style="background-color:rgb(135, 146, 146);"class="container-lg col-14 p-1 mt-4 mx-auto pt-4 border-top">
     <h3 style="color:rgb(16, 9, 77)" id="table-title">Locations that give you more bang for your buck at the MLB</h3>
     <div class="table-responsive">
@@ -179,10 +222,10 @@
 </div>
 
        <!-- Footer -->
-        <div id=footer class="row bg-dark border-top border-dark p-2">
+        <div class="row bg-dark border-top border-dark p-2">
             <div class="col-9">
-                <div id="footer"class="text-light pt-1">* This website is not affiliated, endorsed, or sponsored by the Major League Baseball. Stats courtesy of <a href="https://www.baseball-reference.com/leagues/MLB/index.shtml" class="text-light">baseballreference.com</a></p>
-                </div>
+                <p class="text-light pt-1">* This website is not affiliated, endorsed, or sponsored by the Major League Baseball. Stats courtesy of <a href="https://www.baseball-reference.com/leagues/MLB/index.shtml" class="text-light">baseballreference.com</a></p>
+    </div>
 
 
 
@@ -199,13 +242,9 @@
 <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
-
-
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
-
-<script src="bar.js"></script>
-
+<script src="barchart1.js"></script>
 
 
 </body>

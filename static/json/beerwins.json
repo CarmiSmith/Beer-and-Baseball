@@ -1,0 +1,6752 @@
+[
+    {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 81
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 64
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 79
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 69
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 82
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 96
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 79
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 67
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 68
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 90
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.38, 
+        "size": 18, 
+        "team": "Baltimore Orioles", 
+        "wins": 85
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.38, 
+        "size": 18, 
+        "team": "Baltimore Orioles", 
+        "wins": 96
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.38, 
+        "size": 18, 
+        "team": "Baltimore Orioles", 
+        "wins": 81
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.38, 
+        "size": 18, 
+        "team": "Baltimore Orioles", 
+        "wins": 89
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.38, 
+        "size": 18, 
+        "team": "Baltimore Orioles", 
+        "wins": 47
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.6, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 97
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.6, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 71
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.6, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.6, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 93
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.6, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 108
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 66
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 97
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 103
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 95
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 63
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 76
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 62
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 90
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 76
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 64
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 68
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 67
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 92
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 85
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 81
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 94
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 91
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 74
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 66
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 68
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 75
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 91
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 93
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 90
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 86
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 64
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 51
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 70
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 86
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 84
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 103
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 89
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 81
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 58
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 78
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 98
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 85
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 74
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 80
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 94
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.4, 
+        "size": 20, 
+        "team": "Miami Marlins", 
+        "wins": 62
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.4, 
+        "size": 20, 
+        "team": "Miami Marlins", 
+        "wins": 77
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.4, 
+        "size": 20, 
+        "team": "Miami Marlins", 
+        "wins": 71
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.4, 
+        "size": 20, 
+        "team": "Miami Marlins", 
+        "wins": 79
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.4, 
+        "size": 20, 
+        "team": "Miami Marlins", 
+        "wins": 63
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 82
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 68
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 73
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 96
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 66
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 70
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 83
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 59
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 78
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 74
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 79
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 90
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 77
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 85
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 100
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Oakland Athletics", 
+        "wins": 96
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Oakland Athletics", 
+        "wins": 88
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Oakland Athletics", 
+        "wins": 68
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Oakland Athletics", 
+        "wins": 69
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Oakland Athletics", 
+        "wins": 97
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 63
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 71
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 80
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 94
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 88
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 98
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 78
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 82
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 77
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 74
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 68
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 66
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "San Francisco Giants", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "San Francisco Giants", 
+        "wins": 88
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "San Francisco Giants", 
+        "wins": 84
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "San Francisco Giants", 
+        "wins": 87
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "San Francisco Giants", 
+        "wins": 73
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 71
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 87
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 76
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 86
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 89
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 97
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 90
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 100
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 86
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 88
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 92
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 77
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 80
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 68
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 90
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 88
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 95
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 7.34, 
+        "price_per_ouce": 0.52, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 74
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 7.34, 
+        "price_per_ouce": 0.52, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 83
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 7.34, 
+        "price_per_ouce": 0.52, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 93
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 7.34, 
+        "price_per_ouce": 0.52, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 89
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 7.34, 
+        "price_per_ouce": 0.52, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 73
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 8.25, 
+        "price_per_ouce": 0.52, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.52, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 96
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.52, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 83
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.52, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 8.25, 
+        "price_per_ouce": 0.52, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 82
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 81
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 64
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 79
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 69
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 82
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 96
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 79
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 67
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 68
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 90
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 85
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 96
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 81
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 89
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 47
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 97
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 71
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 93
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 108
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 66
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 97
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 103
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 95
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 63
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 76
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 62
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 90
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 76
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 64
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 68
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 67
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 92
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 85
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 81
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 94
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 91
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 74
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 66
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 68
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 75
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 91
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 93
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 90
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 86
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 64
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 51
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 70
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 86
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 84
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 103
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 89
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 81
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 58
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 78
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 98
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 85
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 74
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 80
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 94
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 62
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 77
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 71
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 79
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 63
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 82
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 68
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 73
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 96
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 66
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 70
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 83
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 59
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 78
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 74
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 79
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 90
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 77
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 85
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 100
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 96
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 88
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 68
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 69
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 97
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 63
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 71
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 80
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 94
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 88
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 98
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 78
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 82
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 77
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 74
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 68
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 66
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 88
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 84
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 87
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 73
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 71
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 87
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 76
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 86
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 89
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 97
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 90
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 100
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 86
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 88
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 92
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 77
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 80
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 68
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 90
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 88
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 95
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 74
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 83
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 93
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 89
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 73
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 96
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 83
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 82
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 81
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 64
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 79
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 69
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 82
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 96
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 79
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 67
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 68
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.25, 
+        "price_per_ouce": 0.45, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 90
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 85
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 96
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 81
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 89
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 47
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 97
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 71
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 93
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 108
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 66
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 97
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 103
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 95
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 63
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 76
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 62
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 90
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 76
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 64
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 68
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Cincinnati Reds", 
+        "wins": 67
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 92
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 85
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 81
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 94
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 91
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 74
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 66
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 68
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 75
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Colorado Rockies", 
+        "wins": 91
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 93
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 90
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 86
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 64
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 51
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 70
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 86
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 84
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 103
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 89
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 81
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 58
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 78
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 98
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 85
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 74
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 80
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 94
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.34, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 62
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 77
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 71
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 79
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.5, 
+        "size": 16, 
+        "team": "Miami Marlins", 
+        "wins": 63
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 82
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 68
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 73
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 96
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 66
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 70
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 83
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 59
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 78
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 74
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 79
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 90
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 77
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 85
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 100
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 96
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 88
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 68
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 69
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 97
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 63
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 71
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 80
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 94
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 88
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 98
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 78
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 82
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 77
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 74
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 68
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 66
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 88
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 84
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 87
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 73
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 71
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 87
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 76
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 86
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 89
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 97
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 90
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 100
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 86
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.56, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 88
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 92
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 77
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 80
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 68
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 90
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 88
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 95
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.31, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 74
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 83
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 93
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 89
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.82, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 73
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 96
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 83
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 82
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 81
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 64
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 79
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 69
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 82
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.48, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 96
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.48, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 79
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.48, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 67
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.48, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 68
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.48, 
+        "size": 16, 
+        "team": "Atlanta Braves", 
+        "wins": 90
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 85
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 96
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 81
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 89
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 6.75, 
+        "price_per_ouce": 0.42, 
+        "size": 16, 
+        "team": "Baltimore Orioles", 
+        "wins": 47
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 97
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 71
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 93
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.65, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 108
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 66
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 97
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 103
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.47, 
+        "size": 16, 
+        "team": "Chicago Cubs", 
+        "wins": 95
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 63
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 76
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 62
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.25, 
+        "price_per_ouce": 0.38, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 90
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.25, 
+        "price_per_ouce": 0.38, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 76
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.25, 
+        "price_per_ouce": 0.38, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 64
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 5.25, 
+        "price_per_ouce": 0.38, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 68
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 5.25, 
+        "price_per_ouce": 0.38, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 67
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 92
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 85
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 81
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 94
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 91
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 74
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 66
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 68
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 75
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 91
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 93
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 90
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 86
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 64
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 51
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 70
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 86
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 84
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 103
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 89
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 81
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Kansas City Royals", 
+        "wins": 58
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 78
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 98
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 85
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 74
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.28, 
+        "size": 16, 
+        "team": "Los Angeles Angels", 
+        "wins": 80
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.31, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.31, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 94
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.31, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.31, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.31, 
+        "size": 20, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 62
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 77
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 71
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 79
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 63
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 82
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 68
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 73
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 96
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 66
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 70
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 83
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 59
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.38, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 78
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 74
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 79
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 90
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 5.75, 
+        "price_per_ouce": 0.48, 
+        "size": 12, 
+        "team": "New York Mets", 
+        "wins": 77
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 85
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 100
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 96
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 88
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 68
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 69
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 97
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 63
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 71
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 7.75, 
+        "price_per_ouce": 0.37, 
+        "size": 21, 
+        "team": "Philadelphia Phillies", 
+        "wins": 80
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 94
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 88
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 98
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 78
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.34, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 82
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 77
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 74
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 68
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.36, 
+        "size": 14, 
+        "team": "San Diego Padres", 
+        "wins": 66
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.54, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.54, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 88
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.54, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 84
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 7.5, 
+        "price_per_ouce": 0.54, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 87
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 7.5, 
+        "price_per_ouce": 0.54, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 73
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Seattle Mariners", 
+        "wins": 71
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Seattle Mariners", 
+        "wins": 87
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Seattle Mariners", 
+        "wins": 76
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Seattle Mariners", 
+        "wins": 86
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Seattle Mariners", 
+        "wins": 89
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 97
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 90
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 100
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 86
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 88
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 92
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 77
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 80
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 68
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 90
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 88
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 95
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.79, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 74
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.79, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 83
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.79, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 93
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 6.79, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 89
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 6.79, 
+        "price_per_ouce": 0.49, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 73
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 96
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 83
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 6.5, 
+        "price_per_ouce": 0.41, 
+        "size": 16, 
+        "team": "Washington Nationals", 
+        "wins": 82
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 81
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 64
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 79
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 69
+      }, 
+      {
+        "city": "Arizona", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.29, 
+        "size": 14, 
+        "team": "Arizona Diamondbacks", 
+        "wins": 82
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Atlanta Braves", 
+        "wins": 96
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Atlanta Braves", 
+        "wins": 79
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Atlanta Braves", 
+        "wins": 67
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Atlanta Braves", 
+        "wins": 68
+      }, 
+      {
+        "city": "Atlanta", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Atlanta Braves", 
+        "wins": 90
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Baltimore Orioles", 
+        "wins": 85
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Baltimore Orioles", 
+        "wins": 96
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Baltimore Orioles", 
+        "wins": 81
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Baltimore Orioles", 
+        "wins": 89
+      }, 
+      {
+        "city": "Baltimore", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Baltimore Orioles", 
+        "wins": 47
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.67, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 97
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.67, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 71
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.67, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 162, 
+        "price": 8.0, 
+        "price_per_ouce": 0.67, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 93
+      }, 
+      {
+        "city": "Boston", 
+        "number_of_games": 163, 
+        "price": 8.0, 
+        "price_per_ouce": 0.67, 
+        "size": 12, 
+        "team": "Boston Red Sox", 
+        "wins": 108
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 9.0, 
+        "price_per_ouce": 0.45, 
+        "size": 20, 
+        "team": "Chicago Cubs", 
+        "wins": 66
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 9.0, 
+        "price_per_ouce": 0.45, 
+        "size": 20, 
+        "team": "Chicago Cubs", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 9.0, 
+        "price_per_ouce": 0.45, 
+        "size": 20, 
+        "team": "Chicago Cubs", 
+        "wins": 97
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 9.0, 
+        "price_per_ouce": 0.45, 
+        "size": 20, 
+        "team": "Chicago Cubs", 
+        "wins": 103
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 9.0, 
+        "price_per_ouce": 0.45, 
+        "size": 20, 
+        "team": "Chicago Cubs", 
+        "wins": 95
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 63
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 73
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 76
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 78
+      }, 
+      {
+        "city": "Chicago", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Chicago White Sox", 
+        "wins": 62
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.45, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 90
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.45, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 76
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.45, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 64
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.45, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 68
+      }, 
+      {
+        "city": "Cincinnati", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.45, 
+        "size": 14, 
+        "team": "Cincinnati Reds", 
+        "wins": 67
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 92
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 85
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 81
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 94
+      }, 
+      {
+        "city": "Cleveland", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Cleveland Indians", 
+        "wins": 91
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 74
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 66
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 68
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 162, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 75
+      }, 
+      {
+        "city": "Colorado", 
+        "number_of_games": 163, 
+        "price": 3.0, 
+        "price_per_ouce": 0.25, 
+        "size": 12, 
+        "team": "Colorado Rockies", 
+        "wins": 91
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 93
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 90
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 86
+      }, 
+      {
+        "city": "Detroit", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Detroit Tigers", 
+        "wins": 64
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.43, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 51
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.43, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 70
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.43, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 86
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.43, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 84
+      }, 
+      {
+        "city": "Houston", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.43, 
+        "size": 14, 
+        "team": "Houston Astros", 
+        "wins": 103
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Kansas City Royals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Kansas City Royals", 
+        "wins": 89
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Kansas City Royals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 162, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Kansas City Royals", 
+        "wins": 81
+      }, 
+      {
+        "city": "Kansas City", 
+        "number_of_games": 163, 
+        "price": 4.0, 
+        "price_per_ouce": 0.33, 
+        "size": 12, 
+        "team": "Kansas City Royals", 
+        "wins": 58
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.38, 
+        "size": 12, 
+        "team": "Los Angeles Angels", 
+        "wins": 78
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.38, 
+        "size": 12, 
+        "team": "Los Angeles Angels", 
+        "wins": 98
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.38, 
+        "size": 12, 
+        "team": "Los Angeles Angels", 
+        "wins": 85
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 162, 
+        "price": 4.5, 
+        "price_per_ouce": 0.38, 
+        "size": 12, 
+        "team": "Los Angeles Angels", 
+        "wins": 74
+      }, 
+      {
+        "city": "Anaheim", 
+        "number_of_games": 163, 
+        "price": 4.5, 
+        "price_per_ouce": 0.38, 
+        "size": 12, 
+        "team": "Los Angeles Angels", 
+        "wins": 80
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 94
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 162, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Los Angeles", 
+        "number_of_games": 163, 
+        "price": 6.25, 
+        "price_per_ouce": 0.39, 
+        "size": 16, 
+        "team": "Los Angeles Dodgers", 
+        "wins": 92
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 62
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 77
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 71
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 79
+      }, 
+      {
+        "city": "Miami", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Miami Marlins", 
+        "wins": 63
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 74
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 82
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 68
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 73
+      }, 
+      {
+        "city": "Milwaukee", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.44, 
+        "size": 16, 
+        "team": "Milwaukee Brewers", 
+        "wins": 96
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 8.5, 
+        "price_per_ouce": 0.43, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 66
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 8.5, 
+        "price_per_ouce": 0.43, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 70
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 8.5, 
+        "price_per_ouce": 0.43, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 83
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 162, 
+        "price": 8.5, 
+        "price_per_ouce": 0.43, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 59
+      }, 
+      {
+        "city": "Minnesota", 
+        "number_of_games": 163, 
+        "price": 8.5, 
+        "price_per_ouce": 0.43, 
+        "size": 20, 
+        "team": "Minnesota Twins", 
+        "wins": 78
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 10.5, 
+        "price_per_ouce": 0.53, 
+        "size": 20, 
+        "team": "New York Mets", 
+        "wins": 74
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 10.5, 
+        "price_per_ouce": 0.53, 
+        "size": 20, 
+        "team": "New York Mets", 
+        "wins": 79
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 10.5, 
+        "price_per_ouce": 0.53, 
+        "size": 20, 
+        "team": "New York Mets", 
+        "wins": 90
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 10.5, 
+        "price_per_ouce": 0.53, 
+        "size": 20, 
+        "team": "New York Mets", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 10.5, 
+        "price_per_ouce": 0.53, 
+        "size": 20, 
+        "team": "New York Mets", 
+        "wins": 77
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 85
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 87
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 84
+      }, 
+      {
+        "city": "New York", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "New York Yankees", 
+        "wins": 100
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 96
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 88
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 68
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 162, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 69
+      }, 
+      {
+        "city": "Oakland", 
+        "number_of_games": 163, 
+        "price": 5.5, 
+        "price_per_ouce": 0.46, 
+        "size": 12, 
+        "team": "Oakland Athletics", 
+        "wins": 97
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Philadelphia Phillies", 
+        "wins": 73
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Philadelphia Phillies", 
+        "wins": 63
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Philadelphia Phillies", 
+        "wins": 71
+      }, 
+      {
+        "city": "Philadelphia", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.5, 
+        "size": 12, 
+        "team": "Philadelphia Phillies", 
+        "wins": 80
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 94
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 88
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 98
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 78
+      }, 
+      {
+        "city": "Pittsburgh", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Pittsburgh Pirates", 
+        "wins": 82
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "San Diego Padres", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "San Diego Padres", 
+        "wins": 77
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "San Diego Padres", 
+        "wins": 74
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "San Diego Padres", 
+        "wins": 68
+      }, 
+      {
+        "city": "San Diego", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "San Diego Padres", 
+        "wins": 66
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 8.25, 
+        "price_per_ouce": 0.59, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 76
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.59, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 88
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.59, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 84
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 162, 
+        "price": 8.25, 
+        "price_per_ouce": 0.59, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 87
+      }, 
+      {
+        "city": "San Francisco", 
+        "number_of_games": 163, 
+        "price": 8.25, 
+        "price_per_ouce": 0.59, 
+        "size": 14, 
+        "team": "San Francisco Giants", 
+        "wins": 73
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 71
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 87
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 76
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 86
+      }, 
+      {
+        "city": "Seattle", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Seattle Mariners", 
+        "wins": 89
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 97
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 90
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 100
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 86
+      }, 
+      {
+        "city": "St. Louis", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "St. Louis Cardinals", 
+        "wins": 88
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 92
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 77
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 80
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 162, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 68
+      }, 
+      {
+        "city": "Tampa", 
+        "number_of_games": 163, 
+        "price": 5.0, 
+        "price_per_ouce": 0.42, 
+        "size": 12, 
+        "team": "Tampa Bay Rays", 
+        "wins": 90
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 91
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 88
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 162, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 95
+      }, 
+      {
+        "city": "Arlington", 
+        "number_of_games": 163, 
+        "price": 6.0, 
+        "price_per_ouce": 0.38, 
+        "size": 16, 
+        "team": "Texas Rangers", 
+        "wins": 67
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 5.67, 
+        "price_per_ouce": 0.41, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 74
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 5.67, 
+        "price_per_ouce": 0.41, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 83
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 5.67, 
+        "price_per_ouce": 0.41, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 93
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 162, 
+        "price": 5.67, 
+        "price_per_ouce": 0.41, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 89
+      }, 
+      {
+        "city": "Toronto", 
+        "number_of_games": 163, 
+        "price": 5.67, 
+        "price_per_ouce": 0.41, 
+        "size": 14, 
+        "team": "Toronto Blue Jays", 
+        "wins": 73
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "Washington Nationals", 
+        "wins": 86
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "Washington Nationals", 
+        "wins": 96
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "Washington Nationals", 
+        "wins": 83
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 162, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "Washington Nationals", 
+        "wins": 95
+      }, 
+      {
+        "city": "Washington", 
+        "number_of_games": 163, 
+        "price": 7.0, 
+        "price_per_ouce": 0.5, 
+        "size": 14, 
+        "team": "Washington Nationals", 
+        "wins": 82
+      }
+    ]
