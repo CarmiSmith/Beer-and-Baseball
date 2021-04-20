@@ -3,22 +3,31 @@ function buildMetadata(selection) {
 
   // Read the json data
   d3.json("json/averages.json").then((Data) => {
-    
-      Data.forEach((d) => {
-      // Filter the data to get the sample's metadata
-      var filtData = d.team;
-      
-      var sample = filtData.filter(item => item.id.toString() == selection)[0];
-      })
-      // Specify the location of the metadata and update it
-      var metadata = d3.select('#table-selector-dropdown');
-      metadata.html('');
 
-      // Add to html
-      Object.entries(sample).forEach((key) => {
-        console.log(key[0])
-          metadata.append('h2').text(key[0].toUpperCase() + ": " +key[1]+ "\n");
-      });
+    var filterData = Data.filter(obj => {
+      return obj.team == selection
+
+    })
+    console.log(filterData)
+
+    var chosenTeam = filterData[0]
+    var tbody = d3.select("#data-table").append("tbody")
+    var tr = tbody.append("tr")
+    tr.append('td').text(chosenTeam.team)
+    tr.append('td').text(chosenTeam.team)
+    tr.append('td').text(chosenTeam.team)
+
+
+
+    
+      //Data.forEach((d) => {
+      // Filter the data to get the sample's metadata
+     // var filtData = d.team;
+      //console.log(filtData)
+      //var sample = filtData.filter(item => item.id.toString() == selection)[0];
+      //})
+      // Specify the location of the metadata and update it
+      
   });
 }
 
@@ -108,9 +117,9 @@ function init() {
          // Add dropdown option for each sample
         var dropdownMenu = d3.select("#table-selector-dropdown");
         dropdownMenu.append("option").property("value", filtData).text(filtData)
-        buildMetadata(filtData[0]);
+        //buildMetadata(filtData[0]);
 
-        buildCharts(filtData[0]);
+        //buildCharts(filtData[0]);
         //console.log(filtData)
               // Add names to the drop down
         //filtData.forEach((team) => {
@@ -126,20 +135,22 @@ function init() {
 
 
       // Use first sample to build metadata and initial plots
-      buildMetadata(filtData[0]);
-
-      buildCharts(filtData[0]);
+    
 
   });
 }
 
-function optionChanged(newSelection) {
+function optionChanged() {
+  newSelection = d3.select("#table-selector-dropdown").property("value")
+  
 
   // Update metadata with newly selected sample
   buildMetadata(newSelection); 
   // Update charts with newly selected sample
   buildCharts(newSelection);
 }
+
+d3.select("#submitBtn").on("click", optionChanged)
 
 // Initialize dashboard on page load
 init();
