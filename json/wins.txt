@@ -1,0 +1,902 @@
+[
+  {
+    "Number_of_Games": 163, 
+    "Team": "Arizona Diamondbacks", 
+    "Wins": 82, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Arizona Diamondbacks", 
+    "Wins": 69, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Arizona Diamondbacks", 
+    "Wins": 79, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Arizona Diamondbacks", 
+    "Wins": 64, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Arizona Diamondbacks", 
+    "Wins": 81, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Atlanta Braves", 
+    "Wins": 90, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Atlanta Braves", 
+    "Wins": 68, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Atlanta Braves", 
+    "Wins": 67, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Atlanta Braves", 
+    "Wins": 79, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Atlanta Braves", 
+    "Wins": 96, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Baltimore Orioles", 
+    "Wins": 47, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Baltimore Orioles", 
+    "Wins": 89, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Baltimore Orioles", 
+    "Wins": 81, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Baltimore Orioles", 
+    "Wins": 96, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Baltimore Orioles", 
+    "Wins": 85, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Boston Red Sox", 
+    "Wins": 108, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Boston Red Sox", 
+    "Wins": 93, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Boston Red Sox", 
+    "Wins": 78, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Boston Red Sox", 
+    "Wins": 71, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Boston Red Sox", 
+    "Wins": 97, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Chicago Cubs", 
+    "Wins": 95, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago Cubs", 
+    "Wins": 103, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago Cubs", 
+    "Wins": 97, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago Cubs", 
+    "Wins": 73, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Chicago Cubs", 
+    "Wins": 66, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Chicago White Sox", 
+    "Wins": 62, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago White Sox", 
+    "Wins": 78, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago White Sox", 
+    "Wins": 76, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Chicago White Sox", 
+    "Wins": 73, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Chicago White Sox", 
+    "Wins": 63, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Cincinnati Reds", 
+    "Wins": 67, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cincinnati Reds", 
+    "Wins": 68, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cincinnati Reds", 
+    "Wins": 64, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cincinnati Reds", 
+    "Wins": 76, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Cincinnati Reds", 
+    "Wins": 90, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Cleveland Indians", 
+    "Wins": 91, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cleveland Indians", 
+    "Wins": 94, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cleveland Indians", 
+    "Wins": 81, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Cleveland Indians", 
+    "Wins": 85, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Cleveland Indians", 
+    "Wins": 92, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Colorado Rockies", 
+    "Wins": 91, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Colorado Rockies", 
+    "Wins": 75, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Colorado Rockies", 
+    "Wins": 68, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Colorado Rockies", 
+    "Wins": 66, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Colorado Rockies", 
+    "Wins": 74, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Detroit Tigers", 
+    "Wins": 64, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Detroit Tigers", 
+    "Wins": 86, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Detroit Tigers", 
+    "Wins": 74, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Detroit Tigers", 
+    "Wins": 90, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Detroit Tigers", 
+    "Wins": 93, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Houston Astros", 
+    "Wins": 103, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Houston Astros", 
+    "Wins": 84, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Houston Astros", 
+    "Wins": 86, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Houston Astros", 
+    "Wins": 70, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Houston Astros", 
+    "Wins": 51, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Kansas City Royals", 
+    "Wins": 58, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Kansas City Royals", 
+    "Wins": 81, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Kansas City Royals", 
+    "Wins": 95, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Kansas City Royals", 
+    "Wins": 89, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Kansas City Royals", 
+    "Wins": 86, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Los Angeles Angels", 
+    "Wins": 80, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Angels", 
+    "Wins": 74, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Angels", 
+    "Wins": 85, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Angels", 
+    "Wins": 98, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Los Angeles Angels", 
+    "Wins": 78, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Los Angeles Dodgers", 
+    "Wins": 92, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Dodgers", 
+    "Wins": 91, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Dodgers", 
+    "Wins": 92, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Los Angeles Dodgers", 
+    "Wins": 94, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Los Angeles Dodgers", 
+    "Wins": 92, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Miami Marlins", 
+    "Wins": 63, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Miami Marlins", 
+    "Wins": 79, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Miami Marlins", 
+    "Wins": 71, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Miami Marlins", 
+    "Wins": 77, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Miami Marlins", 
+    "Wins": 62, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Milwaukee Brewers", 
+    "Wins": 96, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Milwaukee Brewers", 
+    "Wins": 73, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Milwaukee Brewers", 
+    "Wins": 68, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Milwaukee Brewers", 
+    "Wins": 82, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Milwaukee Brewers", 
+    "Wins": 74, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Minnesota Twins", 
+    "Wins": 78, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Minnesota Twins", 
+    "Wins": 59, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Minnesota Twins", 
+    "Wins": 83, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Minnesota Twins", 
+    "Wins": 70, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Minnesota Twins", 
+    "Wins": 66, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "New York Mets", 
+    "Wins": 77, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Mets", 
+    "Wins": 87, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Mets", 
+    "Wins": 90, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Mets", 
+    "Wins": 79, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "New York Mets", 
+    "Wins": 74, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "New York Yankees", 
+    "Wins": 100, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Yankees", 
+    "Wins": 84, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Yankees", 
+    "Wins": 87, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "New York Yankees", 
+    "Wins": 84, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "New York Yankees", 
+    "Wins": 85, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Oakland Athletics", 
+    "Wins": 97, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Oakland Athletics", 
+    "Wins": 69, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Oakland Athletics", 
+    "Wins": 68, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Oakland Athletics", 
+    "Wins": 88, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Oakland Athletics", 
+    "Wins": 96, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Philadelphia Phillies", 
+    "Wins": 80, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Philadelphia Phillies", 
+    "Wins": 71, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Philadelphia Phillies", 
+    "Wins": 63, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Philadelphia Phillies", 
+    "Wins": 73, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Philadelphia Phillies", 
+    "Wins": 73, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Pittsburgh Pirates", 
+    "Wins": 82, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Pittsburgh Pirates", 
+    "Wins": 78, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Pittsburgh Pirates", 
+    "Wins": 98, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Pittsburgh Pirates", 
+    "Wins": 88, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Pittsburgh Pirates", 
+    "Wins": 94, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "San Diego Padres", 
+    "Wins": 66, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Diego Padres", 
+    "Wins": 68, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Diego Padres", 
+    "Wins": 74, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Diego Padres", 
+    "Wins": 77, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "San Diego Padres", 
+    "Wins": 76, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "San Francisco Giants", 
+    "Wins": 73, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Francisco Giants", 
+    "Wins": 87, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Francisco Giants", 
+    "Wins": 84, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "San Francisco Giants", 
+    "Wins": 88, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "San Francisco Giants", 
+    "Wins": 76, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Seattle Mariners", 
+    "Wins": 89, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Seattle Mariners", 
+    "Wins": 86, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Seattle Mariners", 
+    "Wins": 76, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Seattle Mariners", 
+    "Wins": 87, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Seattle Mariners", 
+    "Wins": 71, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "St. Louis Cardinals", 
+    "Wins": 88, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "St. Louis Cardinals", 
+    "Wins": 86, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "St. Louis Cardinals", 
+    "Wins": 100, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "St. Louis Cardinals", 
+    "Wins": 90, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "St. Louis Cardinals", 
+    "Wins": 97, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Tampa Bay Rays", 
+    "Wins": 90, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Tampa Bay Rays", 
+    "Wins": 68, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Tampa Bay Rays", 
+    "Wins": 80, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Tampa Bay Rays", 
+    "Wins": 77, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Tampa Bay Rays", 
+    "Wins": 92, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Texas Rangers", 
+    "Wins": 67, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Texas Rangers", 
+    "Wins": 95, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Texas Rangers", 
+    "Wins": 88, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Texas Rangers", 
+    "Wins": 67, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Texas Rangers", 
+    "Wins": 91, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Toronto Blue Jays", 
+    "Wins": 73, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Toronto Blue Jays", 
+    "Wins": 89, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Toronto Blue Jays", 
+    "Wins": 93, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Toronto Blue Jays", 
+    "Wins": 83, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Toronto Blue Jays", 
+    "Wins": 74, 
+    "Year": 2013
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Washington Nationals", 
+    "Wins": 82, 
+    "Year": 2018
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Washington Nationals", 
+    "Wins": 95, 
+    "Year": 2016
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Washington Nationals", 
+    "Wins": 83, 
+    "Year": 2015
+  }, 
+  {
+    "Number_of_Games": 162, 
+    "Team": "Washington Nationals", 
+    "Wins": 96, 
+    "Year": 2014
+  }, 
+  {
+    "Number_of_Games": 163, 
+    "Team": "Washington Nationals", 
+    "Wins": 86, 
+    "Year": 2013
+  }
+]

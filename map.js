@@ -1,3 +1,8 @@
+function buildMap(selection) {
+
+  d3.json('http://127.0.0.1:5000/averagecity').then((data) => {
+    console.log(data) // this is the data from the flask app
+  
 // Create a map object
 var myMap = L.map("map", {
   center: [37.09, -95.71],
@@ -26,7 +31,8 @@ for (var i = 0; i < MLB_Beer_Prices.length; i++) {
     .bindPopup("<h1>" + cities + "</h1> <hr> <h3>Price of Beer Per Ounce " + beer + "</h3> <hr> <h3>Number of Wins" + wins)
     .addTo(myMap);
 }
-
+})
+}
 
 
 

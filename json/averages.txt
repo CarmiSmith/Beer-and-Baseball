@@ -1,0 +1,122 @@
+[
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "team": "Detroit Tigers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "team": "Chicago White Sox"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.45, 
+    "team": "Washington Nationals"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.48, 
+    "team": "Miami Marlins"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.4, 
+    "team": "Philadelphia Phillies"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.37, 
+    "team": "Houston Astros"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "team": "Oakland Athletics"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.37, 
+    "team": "San Diego Padres"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.45, 
+    "team": "Seattle Mariners"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.49, 
+    "team": "New York Mets"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "team": "Cleveland Indians"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "team": "Baltimore Orioles"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.46, 
+    "team": "Chicago Cubs"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "team": "Milwaukee Brewers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.33, 
+    "team": "Colorado Rockies"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.44, 
+    "team": "Cincinnati Reds"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "team": "Pittsburgh Pirates"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "team": "Kansas City Royals"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "team": "Los Angeles Dodgers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.45, 
+    "team": "Atlanta Braves"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "team": "Tampa Bay Rays"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.34, 
+    "team": "Texas Rangers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.51, 
+    "team": "San Francisco Giants"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.5, 
+    "team": "New York Yankees"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.29, 
+    "team": "Arizona Diamondbacks"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.5, 
+    "team": "St. Louis Cardinals"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "team": "Minnesota Twins"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.3, 
+    "team": "Los Angeles Angels"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.48, 
+    "team": "Toronto Blue Jays"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.64, 
+    "team": "Boston Red Sox"
+  }
+]
