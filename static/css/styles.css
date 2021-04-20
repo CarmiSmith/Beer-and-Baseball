@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: Stencil Std, fantasy;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-weight: bold;
   }
   
   /* change font size in header */
