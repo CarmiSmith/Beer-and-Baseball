@@ -1,6 +1,7 @@
+DROP TABLE mlb_teams 
 CREATE TABLE mlb_wins (
 	Year INT,
-	Team VARCHAR PRIMARY KEY,
+	Team VARCHAR,
 	Number_of_Games INT,
 	Wins INT
 );
@@ -31,7 +32,6 @@ FROM mlb_beer_prices
 INNER JOIN mlb_wins ON mlb_beer_prices.Team = mlb_wins.Team;
 
 SELECT * FROM mlb_combined_data
-
 
 CREATE TABLE mlb_teams AS SELECT mlb_beer_prices.Team,  
 	mlb_beer_prices.Price_per_Ounce
