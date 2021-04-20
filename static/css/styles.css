@@ -1,11 +1,16 @@
 *{
     box-sizing: border-box;
-    font-family: Ubuntu, sans-serif;
+    font-family: Stencil Std, fantasy;
   }
   
   /* change font size in header */
   h2 {
       font-size: 30px;
+  }
+
+  h6 {
+    font-size: 30px;
+    font-family: Jazz LET, fantasy;
   }
 
   html,
@@ -25,7 +30,7 @@
 
   /* The hover border*/
   .active, .panel:hover {
-    border-color:rgb(234, 250, 8);
+    border-color:rgb(19, 43, 250);
     border-style: solid;  
   }
 
@@ -38,6 +43,14 @@
     color: white;
   }
   
+/*the plot box*/
+h4 {
+  font-size: 30px;
+  color: darkblue;
+  font-size: 32px;
+  font-family: Jazz LET, fantasy;
+}
+
   /* The footer is positioned at the bottom of the page */
   footer {
 
@@ -157,6 +170,7 @@
 
 #map { 
     height: 500px; 
+    background-color:rgb(80, 90, 90);
 }
 
 #tool {
