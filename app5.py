@@ -120,17 +120,10 @@ def team_beer():
     team_beer_data = []
     for row in teambeers_records:
         team_beer_dict = {}
-<<<<<<< HEAD
         team_beer_dict ["team"] = row[0]
         team_beer_dict ["price_per_ounce"] = float(row[1])
         team_beer_dict ["year"] = row[2]
         team_beer_dict ["wins"] = row[3]
-=======
-        team_beer_dict["team"] = row[0]
-        team_beer_dict["Average_Price_per_Ounce"] = float(row[1])
-        team_beer_dict["year"] = row[2]
-        team_beer_dict["wins"] = row[3]
->>>>>>> 2d62e9b9034a044aeede3f0a9480a45341c22c62
         team_beer_data.append(team_beer_dict)
     return jsonify(team_beer_data)
 
