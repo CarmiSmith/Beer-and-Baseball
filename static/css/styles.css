@@ -1,56 +1,57 @@
-*{
-    box-sizing: border-box;
-    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
-    font-weight: bold;
-  }
-  
-  /* change font size in header */
-  h2 {
-      font-size: 30px;
-  }
+* {
+  box-sizing: border-box;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-weight: bold;
+}
 
-  h6 {
-    font-size: 30px;
-    font-family: Jazz LET, fantasy;
-  }
+/* change font size in header */
+h2 {
+  font-size: 30px;
+}
 
-  html,
-  body {
-    height: 75%;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
-  .wrapper {
-    position: relative;
-    min-height: 100%;
-    padding-bottom: 130px;
-    overflow: auto;
-  }
+h6 {
+  font-size: 30px;
+  font-family: Jazz LET, fantasy;
+}
 
-  /* The hover border*/
-  .active, .panel:hover {
-    border-color:rgb(19, 43, 250);
-    border-style: solid;  
-  }
+html,
+body {
+  height: 75%;
+  padding: 0;
+  margin: 0;
+}
 
-    /* The hover border*/
-    .active, .panel:hover {
-      border-color:rgb(19, 43, 250);
-      border-style: solid;  
-    }
+/* The wrapper contains all of the page's content besides the footer, which is pushed to the bottom of the page */
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 130px;
+  overflow: auto;
+}
 
+/* The hover border*/
+.active,
+.panel:hover {
+  border-color: rgb(19, 43, 250);
+  border-style: solid;
+}
 
-  /* This CSS styles the header +-+++++++++++++++++++++++in the navbar */
+/* The hover border*/
+.active,
+.panel:hover {
+  border-color: rgb(19, 43, 250);
+  border-style: solid;
+}
+
+/* This CSS styles the header +-+++++++++++++++++++++++in the navbar */
 .nav-bg {
-    position: absolute;
-    bottom: 5px;
-    left: 150px;
-    width: 35px;
-    color: white;
-  }
-  
+  position: absolute;
+  bottom: 5px;
+  left: 150px;
+  width: 35px;
+  color: white;
+}
+
 /*the plot box*/
 h4 {
   font-size: 30px;
@@ -59,133 +60,159 @@ h4 {
   font-family: Jazz LET, fantasy;
 }
 
-  /* The footer is positioned at the bottom of the page */
-  footer {
-
-    right: 0;
-    bottom: 0;
-    left: 0;
-    min-height: 300px;
-    background: #4e5d6c;
-  }
-  
-  /* The code styles the text at the bottom of the footer */
-  footer > .bottom {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 2px;
-    background: #1b3146;
-  }
-  
-    /* This CSS styles the icon in the navbar */
-    .nav-bg {
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        width: 0px;
-        color: white;
-      }
-    
-  
-  .loader {
-    margin-top: 60px;
-  }
-  
-  .margin-top-60 {
-    margin-top: 60px;
-  }
-  
-/* The styles for the Background Photo box */
-  .hero {
-    position: relative;
-    height: 500px;
-    padding: 10px;
-    margin: 0;
-    background-image: url("../images/baseball.BG.jpg");
-    background-attachment: fixed;
-    background-position: bottom center;
-    background-size: cover;
-  }
-  
-  .hero h1 {
-    margin-top: 200px;
-    font-size: 0.1rem;
-    animation: title 1.2s forwards linear;
-  }
-  
-  .hero p {
-    font-size: 2rem;
-    opacity: 0;
-    animation: subtitle 1.2s forwards linear;
-    animation-delay: 1.2s;
-  }
-  
-  
-  /* media queries which will only be activated at specific screen sizes */
-  @media (max-width: 800px) {
-    #table-area td {
-      font-size: 1em;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    #table-area thead {
-      display: none;
-    }
-
-    .hero h1 {
-      animation: smaller-title 1.2s forwards linear;
-    }
-  }
-  
-  /* keyframe animations which will be used to animate the title */
-  @keyframes title {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      font-size: 5.5rem;
-      opacity: 10;
-    }
-  }
-  
-  @keyframes smaller-title {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      font-size: 5.5rem;
-      opacity: 1;
-    }
-  }
-  
-  @keyframes subtitle {
-    from {
-      opacity: 0;
-    }
-  
-    to {
-      opacity: 1;
-    }
-  }
-
-  /* This is for the map hmtl only*/
-   /* link, map and tool for the map */ 
-  .link-group:hover {
-    background-color: lightblue;
+/* The footer is positioned at the bottom of the page */
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 300px;
+  background: #4e5d6c;
 }
 
-#map { 
-    height: 500px; 
-    background-color:rgb(80, 90, 90);
+/* The code styles the text at the bottom of the footer */
+footer > .bottom {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2px;
+  background: #1b3146;
+}
+
+/* This CSS styles the icon in the navbar */
+.nav-bg {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  color: white;
+}
+
+.loader {
+  margin-top: 60px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+
+/*setting up Table*/
+
+/*.table .th .td*/
+h3 {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 30px;
+  font-weight: bold;
+}
+.tr:hover {
+  background-color: #f5f5f5;
+}
+
+.table-responsive {
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid white;
+  text-align: center;
+}
+
+/* The styles for the Background Photo box */
+.hero {
+  position: relative;
+  height: 500px;
+  padding: 10px;
+  margin: 0;
+  background-image: url("../images/baseball.BG.jpg");
+  background-attachment: fixed;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.hero h1 {
+  margin-top: 200px;
+  font-size: 0.1rem;
+  animation: title 1.2s forwards linear;
+}
+
+.hero p {
+  font-size: 2rem;
+  opacity: 0;
+  animation: subtitle 1.2s forwards linear;
+  animation-delay: 1.2s;
+}
+
+/* media queries which will only be activated at specific screen sizes */
+@media (max-width: 800px) {
+  #table-area td {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 500px) {
+  #table-area thead {
+    display: none;
+  }
+
+  .hero h1 {
+    animation: smaller-title 1.2s forwards linear;
+  }
+}
+
+/* keyframe animations which will be used to animate the title */
+@keyframes title {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    font-size: 5.5rem;
+    opacity: 10;
+  }
+}
+
+@keyframes smaller-title {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    font-size: 5.5rem;
+    opacity: 1;
+  }
+}
+
+@keyframes subtitle {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* This is for the map hmtl only*/
+/* link, map and tool for the map */
+.link-group:hover {
+  background-color: lightblue;
+}
+
+#map {
+  height: 500px;
+  background-color: rgb(80, 90, 90);
 }
 
 #tool {
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #74faff71;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #74faff71;
 }
-
