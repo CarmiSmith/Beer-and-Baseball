@@ -1,5 +1,6 @@
 //const ROOT_URL = 'https://namhere.herokuapp.com'
 
+
 // Define a function that will create charts for given sample
   function buildCharts(selection) {
   
@@ -29,16 +30,18 @@
         document.getElementById("plot-title").innerText = xAxis + ' And ' + yAxis;
         document.getElementById("table-title").innerText = xAxis + ' And ' + yAxis;
 
-        //var hovertext = mlb_beer_prices;
+        var hovertext = mlb_beer_prices;
         
-        // Create bar chart in correct location
-      //  var barTrace = {
-      //      type: "bar",
-      //      y: team,
-      //      x: wins,
-      //      text: hovertext,
-      //      orientation: 'h'
-      //  };
+        // select the bar chart div
+var barChart = d3.select("#bar");
+        Create barChart
+        var barTrace = {
+            type: "bar",
+            y: team,
+            x: wins,
+            text: hovertext,
+            orientation: 'h'
+        };
   
         var barData = [barTrace];
   
@@ -71,7 +74,8 @@
        }
     }
     }
-       return barLayout
+}
+       return barLayout 
     }
 
     function createTable(d, x, y) {

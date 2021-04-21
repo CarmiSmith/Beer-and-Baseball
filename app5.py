@@ -46,6 +46,9 @@ def welcome():
 
 @app.route("/wins")
 def teams_win():
+    cursor = engine.connect()
+    postgreSQL_select_Query = "select * from mlb_wins"
+    win_records = cursor.execute(postgreSQL_select_Query)
     team_data = []
     for row in win_records:
         teams_dict = {}
@@ -59,7 +62,9 @@ def teams_win():
 
 @app.route("/beerprices")
 def beer_prices():
-
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from mlb_beer_prices"
+    beer_records = cursor.execute(postgreSQL_select_Query1)
     beer_price = []
 
     for row in beer_records:
@@ -77,6 +82,9 @@ def beer_prices():
 
 @app.route("/beerwins")
 def beer_wins():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from mlb_combined_data"
+    beerwin_records = cursor.execute(postgreSQL_select_Query1)
     beerwin_data = []
     for row in beerwin_records:
         beerwin_dict = {}
@@ -93,6 +101,9 @@ def beer_wins():
 
 @app.route("/averages")
 def beer_average():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from average"
+    average_records = cursor.execute(postgreSQL_select_Query1)
     beer_avg_data = []
     for row in average_records:
         avg_dict = {}
@@ -104,23 +115,30 @@ def beer_average():
 
 @app.route("/averagecity")
 def beercity_average():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from averagecity"
+    beercity_avg_records = cursor.execute(postgreSQL_select_Query1)
     beercity_avg_data = []
     for row in beercity_avg_records:
         beercity_avg_dict = {}
-        beercity_avg_dict["team"] = row[0]
-        beercity_avg_dict["city"] = row[1]
-        beercity_avg_dict["Average_Price_per_Ounce"] = float(row[2])
+        beercity_avg_dict["team"] = row[3]
+        beercity_avg_dict["city"] = row[2]
+        beercity_avg_dict["Average_Price_per_Ounce"] = float(row[0])
+        beercity_avg_dict["Wins"] = float(row[1])
         beercity_avg_data.append(beercity_avg_dict)
     return jsonify(beercity_avg_data)
 
 
 @app.route("/teambeers")
 def team_beer():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from teambeers"
+    teambeers_records = cursor.execute(postgreSQL_select_Query1)
     team_beer_data = []
     for row in teambeers_records:
         team_beer_dict = {}
         team_beer_dict["team"] = row[0]
-        team_beer_dict["Average_Price_per_Ounce"] = float(row[1])
+        team_beer_dict["price_per_ounce"] = float(row[1])
         team_beer_dict["year"] = row[2]
         team_beer_dict["wins"] = row[3]
         team_beer_data.append(team_beer_dict)

@@ -1,5 +1,6 @@
 // Define a function that will create metadata for given sample
 function buildMetadata(selection) {
+const url = "/averagecity"
 
   // Read the json data
   d3.json("json/teambeers.json").then((Data) => {
@@ -30,7 +31,7 @@ function buildCharts(selection) {
       Data.forEach((d) => {
         var filtData = d.team;
         var price = d.Average_Price_per_Ounce
-        var wins = d.year
+        var wins = d.Wins
         var hovertext = filtData; 
 
               // Create bar chart in correct location
