@@ -1,0 +1,182 @@
+[
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "Wins": 82.0, 
+      "city": "Seattle", 
+      "team": "Seattle Mariners"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "Wins": 81.0, 
+      "city": "Detroit", 
+      "team": "Detroit Tigers"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "Wins": 80.0, 
+      "city": "Atlanta", 
+      "team": "Atlanta Braves"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "Wins": 81.0, 
+      "city": "Tampa", 
+      "team": "Tampa Bay Rays"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "Wins": 72.0, 
+      "city": "Philadelphia", 
+      "team": "Philadelphia Phillies"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "Wins": 89.0, 
+      "city": "Boston", 
+      "team": "Boston Red Sox"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "Wins": 75.0, 
+      "city": "Arizona", 
+      "team": "Arizona Diamondbacks"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "Wins": 73.0, 
+      "city": "Cincinnati", 
+      "team": "Cincinnati Reds"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "Wins": 92.0, 
+      "city": "Los Angeles", 
+      "team": "Los Angeles Dodgers"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "Wins": 88.0, 
+      "city": "Pittsburgh", 
+      "team": "Pittsburgh Pirates"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "Wins": 82.0, 
+      "city": "San Francisco", 
+      "team": "San Francisco Giants"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "Wins": 82.0, 
+      "city": "Arlington", 
+      "team": "Texas Rangers"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "Wins": 92.0, 
+      "city": "St. Louis", 
+      "team": "St. Louis Cardinals"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "Wins": 72.0, 
+      "city": "San Diego", 
+      "team": "San Diego Padres"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "Wins": 87.0, 
+      "city": "Chicago", 
+      "team": "Chicago Cubs"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "Wins": 80.0, 
+      "city": "Baltimore", 
+      "team": "Baltimore Orioles"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "Wins": 71.0, 
+      "city": "Minnesota", 
+      "team": "Minnesota Twins"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "Wins": 75.0, 
+      "city": "Colorado", 
+      "team": "Colorado Rockies"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "Wins": 70.0, 
+      "city": "Chicago", 
+      "team": "Chicago White Sox"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "Wins": 82.0, 
+      "city": "Kansas City", 
+      "team": "Kansas City Royals"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "Wins": 79.0, 
+      "city": "Milwaukee", 
+      "team": "Milwaukee Brewers"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "Wins": 83.0, 
+      "city": "Anaheim", 
+      "team": "Los Angeles Angels"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "Wins": 88.0, 
+      "city": "Washington", 
+      "team": "Washington Nationals"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "Wins": 81.0, 
+      "city": "New York", 
+      "team": "New York Mets"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "Wins": 82.0, 
+      "city": "Toronto", 
+      "team": "Toronto Blue Jays"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "Wins": 88.0, 
+      "city": "New York", 
+      "team": "New York Yankees"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "Wins": 70.0, 
+      "city": "Miami", 
+      "team": "Miami Marlins"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "Wins": 79.0, 
+      "city": "Houston", 
+      "team": "Houston Astros"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "Wins": 84.0, 
+      "city": "Oakland", 
+      "team": "Oakland Athletics"
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "Wins": 89.0, 
+      "city": "Cleveland", 
+      "team": "Cleveland Indians"
+    }
+  ]

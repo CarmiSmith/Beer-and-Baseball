@@ -8,7 +8,7 @@
     <title>MLB Drinking Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <!--<link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">-->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.dataTables.min.css" />
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
@@ -56,22 +56,36 @@
         <div class="pt-4">
             <div class="container p-4 border-bottom link-group">
                 <h7>Interactive Graphs For Beer Cost</h7>
-                <a href="/">
-                    <img class="img-fluid pt-4" src="images/BBB.jpeg" width="125" alt="Graphs">
+                <a href="index_new.html">
+                    <img class="panel img-fluid pt-4" src="images/BBB.jpeg" width="125" alt="Graphs">
                 </a>
             </div>
             <div class="container p-4 border-bottom link-group">
                 <h7>Interactive Maps For Locations</h7>
+<<<<<<< HEAD
                 <a href="/map.hmtl">
                     <img class="img-fluid pt-4" src="images/pinmap.png" width="125" alt="Graphs">
+=======
+
+                <!--<a href="/map.js">
+                    <img class="panel img-fluid pt-4" src="images/pinmap.png" width="125" alt="Graphs">-->
+
+
+                <a href="map.html">
+                    <img class="panel" src="images/pinmap.png" class="img-fluid pt-4" width="125" alt="Graphs">
+
+                <!--<a href="/map.js">
+                    <img class="img-fluid pt-4" src="images/pinmap.png" width="125" alt="Graphs">-->
+
+>>>>>>> f74fa293e7f41b92259245590220f2b5312d4a23
                 </a>
             </div>
         </div>
     </div>
     </div>
     <!-- Large Data Box and form -->
-    <div style="position:relative; left:40px; top:-100px">
-    <div style="position:relative; left:290px; top:-285px">
+    
+    <div style="position:relative; left:-120px; top:70px">
     <div style="background-color:rgb(80, 90, 90);"class="jumbotron container p-5 mt-3">
         <h2 class="display-7" style="color:rgb(39, 45, 66)">Explore the Cost of Beer at the top MLB Statiums!</h2>
         <hr class="my-4">
@@ -83,7 +97,7 @@
             <div class="col-lg-10 pr-lg-5">
                 <select class="form-control my-1" id="table-selector-dropdown">
                     {% for option in options %}
-                    <option>{{option}}</option>
+                    <option>Team</option>
                     {% endfor %}
                 </select>
             </div>   
@@ -104,13 +118,17 @@
     </div>
     
     <!-- Main Content Area -->
-    <div class="col-lg-10 text-center mb-5">
-
+    <div class="row">
+    <div class="col-md-8 text-center mb-5">
+    </div>
 <!-- Plot -->
-<div style="position:relative; left:270px; top:-300px">
+<div style="position:relative; left:300px; top:40px">
 <div class="container-fluid container-lg text-center px-lg-5">
-    <h4 style="background-color:rgb(135, 146, 146)" class="py-3" id="plot-title">Beer and Baseball</h4>
-    <div id="plot" class="text-center"></div>
+    <h4 style="background-color:rgb(120, 128, 128)" class="py-3" id="plot-title">Beer and Baseball</h4>
+    <div class="col-md-14">
+    <div id="bubble">
+    </div>
+    </div>
 </div>
 
 <!-- Plot -->
@@ -128,11 +146,15 @@
     </div>
 
  <!-- Table -->
+<<<<<<< HEAD
  <div style="position:relative; left:300px; top:250px">
+=======
+ <div style="position:relative; left:50px; top:50px">
+>>>>>>> f74fa293e7f41b92259245590220f2b5312d4a23
  <div style="background-color:rgb(120, 128, 128)" class="container-lg col-14 p-1 mt-4 mx-auto pt-4 border-top">
     <h3 style="color:rgb(16, 9, 77)" id="table-title">Locations that give you more bang for your buck at the MLB</h3>
     <div class="table-responsive">
-        <table id="data-table" data-toggle="table">
+        <table id="data-table" data-toggle="table" style="color:rgb(255, 254, 253); text-align: center; border-collapse: collapse white; border-bottom: 1px solid white;">
             <thead>
                 <tr>
                     <th data-field="y" data-sortable="true">Team</th>
@@ -206,13 +228,17 @@
     crossorigin="anonymous"></script>
 
 
+<<<<<<< HEAD
 <script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>
+=======
+<!--<script src="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.js"></script>-->
+>>>>>>> f74fa293e7f41b92259245590220f2b5312d4a23
 
 
-<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<!--<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>-->
 
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
