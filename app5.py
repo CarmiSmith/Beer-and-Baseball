@@ -9,7 +9,7 @@ import json
 from flask_cors import CORS
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:Planning4future@@localhost:5432/Baseball")
+    "postgresql+psycopg2://postgres:postgres@localhost:5432/Baseball")
 cursor = engine.connect()
 postgreSQL_select_Query = "select * from mlb_wins"
 win_records = cursor.execute(postgreSQL_select_Query)
@@ -121,10 +121,10 @@ def beercity_average():
     beercity_avg_data = []
     for row in beercity_avg_records:
         beercity_avg_dict = {}
-        beercity_avg_dict["team"] = row[3]
-        beercity_avg_dict["city"] = row[2]
-        beercity_avg_dict["Average_Price_per_Ounce"] = float(row[0])
-        beercity_avg_dict["Wins"] = float(row[1])
+        beercity_avg_dict["team"] = row[0]
+        beercity_avg_dict["city"] = row[1]
+        beercity_avg_dict["Average_Price_per_Ounce"] = float(row[2])
+        beercity_avg_dict["Wins"] = float(row[3])
         beercity_avg_data.append(beercity_avg_dict)
     return jsonify(beercity_avg_data)
 

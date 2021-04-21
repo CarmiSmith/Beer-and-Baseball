@@ -57,11 +57,7 @@
             <div class="container p-4 border-bottom link-group">
                 <h7>Interactive Graphs For Beer Cost</h7>
                 <a href="/">
-<<<<<<< HEAD
                     <img class="panel img-fluid pt-4" src="images/BBB.jpeg" width="125" alt="Graphs">
-=======
-                    <img class="img-fluid pt-4" src="images/BBB.jpeg" width="125" alt="Graphs">
->>>>>>> 459fd2a0346215a757e4c8b0c6b730ea339f8598
                 </a>
             </div>
             <div class="container p-4 border-bottom link-group">
@@ -97,7 +93,7 @@
             <div class="col-lg-10 pr-lg-5">
                 <select class="form-control my-1" id="table-selector-dropdown">
                     {% for option in options %}
-                    <option>{{option}}</option>
+                    <option>Team</option>
                     {% endfor %}
                 </select>
             </div>   
@@ -118,13 +114,17 @@
     </div>
     
     <!-- Main Content Area -->
-    <div class="col-lg-10 text-center mb-5">
-
+    <div class="row">
+    <div class="col-md-8 text-center mb-5">
+    </div>
 <!-- Plot -->
 <div style="position:relative; left:270px; top:-300px">
 <div class="container-fluid container-lg text-center px-lg-5">
     <h4 style="background-color:rgb(135, 146, 146)" class="py-3" id="plot-title">Beer and Baseball</h4>
-    <div id="plot" class="text-center"></div>
+    <div class="col-md-10">
+    <div id="bubble">
+    </div>
+    </div>
 </div>
 
  <!-- Table -->

@@ -1,137 +1,149 @@
-# flask
-from flask import Flask, jsonify, render_template
-from flask_cors import CORS
-import json
-
-# os
+import psycopg2
 import os
+import sqlalchemy
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, func
+from flask import Flask, jsonify, render_template
+import json
+from flask_cors import CORS
 
-# import pandas
-import pandas as pd
+engine = create_engine(
+    "postgresql+psycopg2://postgres:Planning4future@@localhost:5432/Baseball")
+cursor = engine.connect()
+postgreSQL_select_Query = "select * from mlb_wins"
+win_records = cursor.execute(postgreSQL_select_Query)
+postgreSQL_select_Query1 = "select * from mlb_beer_prices"
+beer_records = cursor.execute(postgreSQL_select_Query1)
+postgreSQL_select_Query1 = "select * from mlb_combined_data"
+beerwin_records = cursor.execute(postgreSQL_select_Query1)
+postgreSQL_select_Query1 = "select * from average"
+average_records = cursor.execute(postgreSQL_select_Query1)
+postgreSQL_select_Query1 = "select * from averagecity"
+beercity_avg_records = cursor.execute(postgreSQL_select_Query1)
+postgreSQL_select_Query1 = "select * from teambeers"
+teambeers_records = cursor.execute(postgreSQL_select_Query1)
 
-# # import state codes
-# import state_codes_mod
-
-# initialize app
-app = Flask(__name__, template_folder=os.path.abspath('static')) # reference a different path for templates
+app = Flask(__name__)
 CORS(app)
-# setup database and sqlalchemy dependencies
-from sql_setup import setup_dependencies
-# engine, session, Passing, Rushing = setup_dependencies(app)
 
-# home route
+
 @app.route('/')
 def welcome():
-    '''Main Dashboard Route.'''
+    print("Server received request for 'Home' page...")
+    return (
+        f"Welcome to MLB Beer Drinking Guild<br/>"
+        f"Available Routes:<br/>"
+        f"/wins<br/>"
+        f"/beerprices<br/>"
+        f"/beerwins<br/>"
+        f"/averages<br/>"
+        f"/averagecity<br/>"
+        f"/teambeers<br/>"
 
-    # get default data
-    data = session.query(Passing).order_by(Passing.passing_yards.desc())
+    )
 
-    # default dropdowns
-    options = populate_dropdown('passing')
-    options = options.json
-    options = [x.capitalize().replace('_', ' ') for x in options]
 
-    return render_template('index.html', data=data, options=options)
+@app.route("/wins")
+def teams_win():
+    cursor = engine.connect()
+    postgreSQL_select_Query = "select * from mlb_wins"
+    win_records = cursor.execute(postgreSQL_select_Query)
+    team_data = []
+    for row in win_records:
+        teams_dict = {}
+        teams_dict["Year"] = row[0]
+        teams_dict["Team"] = row[1]
+        teams_dict["Number_of_Games"] = row[2]
+        teams_dict["Wins"] = row[3]
+        team_data.append(teams_dict)
+    return jsonify(team_data)
 
-@app.route('/map')
-def map():
-    '''Main Map Route.'''
 
-    # get default data
-    data = session.query(Passing).order_by(Passing.passing_yards.desc())
+@app.route("/beerprices")
+def beer_prices():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from mlb_beer_prices"
+    beer_records = cursor.execute(postgreSQL_select_Query1)
+    beer_price = []
 
-    # default dropdowns
-    options = populate_dropdown('passing')
-    options = options.json
-    options = [x.capitalize().replace('_', ' ') for x in options]
+    for row in beer_records:
+        beer_dict = {}
+        beer_dict['Year'] = row[0]
+        beer_dict['Team'] = row[1]
+        beer_dict['Nickname'] = row[2]
+        beer_dict['City'] = row[3]
+        beer_dict['Price'] = float(row[4])
+        beer_dict['Size'] = row[5]
+        beer_dict['Price_per_Ounce'] = float(row[6])
+        beer_price.append(beer_dict)
+    return jsonify(beer_price)
 
-    return render_template('map.html', data=data, options=options)
 
-@app.route('/map/<table>/<col>')
-def map_json(table, col):
-    '''Returns map json data.'''
+@app.route("/beerwins")
+def beer_wins():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from mlb_combined_data"
+    beerwin_records = cursor.execute(postgreSQL_select_Query1)
+    beerwin_data = []
+    for row in beerwin_records:
+        beerwin_dict = {}
+        beerwin_dict["team"] = row[0]
+        beerwin_dict["city"] = row[1]
+        beerwin_dict["price"] = float(row[2])
+        beerwin_dict["size"] = row[3]
+        beerwin_dict["price_per_ouce"] = float(row[4])
+        beerwin_dict["number_of_games"] = row[5]
+        beerwin_dict["wins"] = row[6]
+        beerwin_data.append(beerwin_dict)
+    return jsonify(beerwin_data)
 
-    # load map data
-    map_data = json.load(open('json/states.json'))
-    
-    # load and group by player states
-    player_data = pd.read_sql_table(table, engine)[['name', 'birth_place', col]]
 
-    # handle height and weight issues
-    if col in ['height', 'weight']:
-        player_data[col] = player_data[col].astype(float)
+@app.route("/averages")
+def beer_average():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from average"
+    average_records = cursor.execute(postgreSQL_select_Query1)
+    beer_avg_data = []
+    for row in average_records:
+        avg_dict = {}
+        avg_dict["team"] = row[0]
+        avg_dict["Average_Price_per_Ounce"] = float(row[1])
+        beer_avg_data.append(avg_dict)
+    return jsonify(beer_avg_data)
 
-    # get states and group by state of birth
-    birth_place = player_data['birth_place'].str.split(' , ', n = 1, expand = True)
-    player_data['birth_place_state'] = birth_place[1]
-    grouped = player_data.groupby(['birth_place_state']).sum()
 
-    # build geoJson data
-    for ind, obj in enumerate(map_data['features']):
-        initials = state_codes_mod.state_codes[map_data['features'][ind]['properties']['name']]
+@app.route("/averagecity")
+def beercity_average():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from averagecity"
+    beercity_avg_records = cursor.execute(postgreSQL_select_Query1)
+    beercity_avg_data = []
+    for row in beercity_avg_records:
+        beercity_avg_dict = {}
+        beercity_avg_dict["team"] = row[3]
+        beercity_avg_dict["city"] = row[2]
+        beercity_avg_dict["Average_Price_per_Ounce"] = float(row[0])
+        beercity_avg_dict["Wins"] = float(row[1])
+        beercity_avg_data.append(beercity_avg_dict)
+    return jsonify(beercity_avg_data)
 
-        # set the new density to the required stat
-        try:
-            map_data['features'][ind]['properties']['density'] = int(grouped.loc[[initials],[col]][col])
-        except KeyError:
-            map_data['features'][ind]['properties']['density'] = 0
 
-    return map_data
+@app.route("/teambeers")
+def team_beer():
+    cursor = engine.connect()
+    postgreSQL_select_Query1 = "select * from teambeers"
+    teambeers_records = cursor.execute(postgreSQL_select_Query1)
+    team_beer_data = []
+    for row in teambeers_records:
+        team_beer_dict = {}
+        team_beer_dict["team"] = row[0]
+        team_beer_dict["price_per_ounce"] = float(row[1])
+        team_beer_dict["year"] = row[2]
+        team_beer_dict["wins"] = row[3]
+        team_beer_data.append(team_beer_dict)
+    return jsonify(team_beer_data)
 
-# data return route
-@app.route('/<table>/<x>/<y>')
-def get_data(table, x, y):
-    '''Returns JSON data from user choices.'''
 
-    # handle x and y inputs being identical
-    if(x == y):
-        return jsonify([])
-    # group by 
-    data = pd.read_sql_table(table, engine)[['name', x, y]]
-
-    return data.to_json()
-
-@app.route('/<table>')
-def populate_dropdown(table):
-
-    '''Returns the columns a user can choose from.'''
-
-    exclusions = ['id', 'name', 'birth_place', 'birth_date', 'college', 'experience', 'high_school', 'high_school_location', 'years_played']
-
-    options = [x for x in pd.read_sql_table(table, engine).columns if x not in exclusions]
-
-    return jsonify(options)
-
-@app.route('/table/<table>/<x>/<y>')
-def get_table_data(table, x, y):
-
-    '''Returns JSON data from user choices made for bootstrap table.'''
-
-    # group by 
-    data = pd.read_sql_table(table, engine)[['name', x, y]]
-
-    table_data = []
-    for ind, row in data.iterrows():
-        d = {
-            'name': row['name'],
-            'x': row[x],
-            'y': row[y]
-        }
-        table_data.append(d)
-
-    return jsonify(table_data)
-
-def insert_data():
-
-    '''Runs the data_insert functions to insert csv files into cloud database.'''
-
-    import sys
-    sys.path.append("..")
-    import data_insert
-    data_insert.insert_all()
-
-# run app
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5000)) # this sets the port to 5000 locally, and ${PORT} environment variable on Heroku
-    app.run(host='0.0.0.0', port=port, debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)

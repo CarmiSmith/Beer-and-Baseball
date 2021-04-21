@@ -1,15 +1,14 @@
 // Define a function that will create metadata for given sample
 function buildMetadata(selection) {
-const url = "/averagecity"
+//const url = "/teambeers"
 
   // Read the json data
   d3.json("json/teambeers.json").then((Data) => {
 
     var filterData = Data.filter(obj => {
       return obj.team == selection
-
     })
-    console.log(filterData)
+    //console.log(filterData)
 
     var chosenTeam = filterData[0]
     var tbody = d3.select("#data-table").append("tbody")
@@ -28,56 +27,70 @@ function buildCharts(selection) {
   // Read the json data
   d3.json("json/teambeers.json").then((Data) => {
     
-      Data.forEach((d) => {
-        var filtData = d.team;
-        var price = d.Average_Price_per_Ounce
-        var wins = d.Wins
-        var hovertext = filtData; 
+        var filterData = Data.filter(obj => {
+          return obj.team == selection
+    
+        })
+        var prices = filterData.map((obj) => {
+          return obj.Average_Price_per_Ounce
+        })
+        var wins = filterData.map((obj) => {
+          return obj.wins
+        })
+        var teams = filterData.map((obj) => {
+          return obj.team
+        })
+        var years = filterData.map((obj) => {
+          return obj.year
+        })
+     
+         // Create bar chart in correct location
+    //   var barTrace = {
+    //     type: "bar",
+    //     y: filterData.wins,
+    //     x: filterData.price,
+    //     text: filterData.team,
+    //     orientation: 'h'
+    // };
 
-              // Create bar chart in correct location
-      var barTrace = {
-        type: "bar",
-        y: wins,
-        x: price,
-        text: hovertext,
-        orientation: 'h'
-    };
+    //   var barData = [barTrace];
+    //     // Create the layout variable
+    //   var barLayout = {
+    //       title: "Beer and Baseball",
+    //       yaxis: {
+    //       tickmode: "linear"
+    //       }
+    //   };
 
-      var barData = [barTrace];
-        // Create the layout variable
-      var barLayout = {
-          title: "Beer and Baseball",
-          yaxis: {
-          tickmode: "linear"
-          }
-      };
-
-      Plotly.newPlot("bar", barData, barLayout);
-      })
-      
+    //   Plotly.newPlot("bar", barData, barLayout);
+    //   })
+    // } 
       // Create bubble chart in correct location
       var bubbleTrace = {
-          x: price,
-          y: wins,
-          text: hovertext,
+          x: wins,
+          y: prices,
+          text: years,
           mode: "markers",
-
-      };
-
-      var bubbleData = [bubbleTrace];
-
-      var layout = {
-          showlegend: false,
-          height: 600,
-          width: 1000,
-          xaxis: {
-              title: "Beer and Baseball"
+          marker: {
+            color: [120, 125, 130, 135, 140, 145],
+            size: [20, 40, 60, 80, 100, 120]
           }
-      };
+       };
 
-      Plotly.newPlot("bubble", bubbleData, layout);
-  });
-}
+       var bubbleData = [bubbleTrace];
+
+       var layout = {
+           showlegend: false,
+           height: 600,
+           width: 1000,
+           xaxis: {
+               title: "Beer and Baseball"
+           }
+       };
+
+       Plotly.newPlot("bubble", bubbleData, layout);
+      });
+    }
 
 
 // Define function that will run on page load
@@ -90,13 +103,9 @@ function init() {
         var filtData = d.team;
          // Add dropdown option for each sample
         var dropdownMenu = d3.select("#table-selector-dropdown");
+        //Data.forEach((d) => {
         dropdownMenu.append("option").property("value", filtData).text(filtData)
       });
-
-        //buildMetadata(filtData[0]);
-
-        buildCharts(filtData[0]);
-    
   });
 }
 
