@@ -2,7 +2,7 @@
 function buildMetadata(selection) {
 
   // Read the json data
-  d3.json("json/averages.json").then((Data) => {
+  d3.json("json/teambeers.json").then((Data) => {
 
     var filterData = Data.filter(obj => {
       return obj.team == selection
@@ -14,8 +14,9 @@ function buildMetadata(selection) {
     var tbody = d3.select("#data-table").append("tbody")
     var tr = tbody.append("tr")
     tr.append('td').text(chosenTeam.team)
-    tr.append('td').text(chosenTeam.team)
-    tr.append('td').text(chosenTeam.team)
+    tr.append('td').text(chosenTeam.Price_per_Ounce)
+    tr.append('td').text(chosenTeam.year)
+    tr.append('td').text(chosenTeam.wins)
 
 
 
@@ -35,7 +36,7 @@ function buildMetadata(selection) {
 function buildCharts(selection) {
 
   // Read the json data
-  d3.json("json/averages.json").then((Data) => {
+  d3.json("json/teambeers.json").then((Data) => {
     
       Data.forEach((d) => {
         var filtData = d.team;
@@ -109,7 +110,7 @@ function buildCharts(selection) {
 function init() {
 
   // Read json data
-  d3.json("json/averages.json").then((Data) => {
+  d3.json("json/teambeers.json").then((Data) => {
       Data.forEach((d) => {
         //console.log(d.team)
            // Filter data to get sample names
