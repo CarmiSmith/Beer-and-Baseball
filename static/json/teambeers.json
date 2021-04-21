@@ -1,0 +1,902 @@
+[
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "team": "Arizona Diamondbacks", 
+      "wins": 81, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "team": "Arizona Diamondbacks", 
+      "wins": 64, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "team": "Arizona Diamondbacks", 
+      "wins": 79, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "team": "Arizona Diamondbacks", 
+      "wins": 69, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.29, 
+      "team": "Arizona Diamondbacks", 
+      "wins": 82, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Atlanta Braves", 
+      "wins": 96, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Atlanta Braves", 
+      "wins": 79, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Atlanta Braves", 
+      "wins": 67, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Atlanta Braves", 
+      "wins": 68, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Atlanta Braves", 
+      "wins": 90, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Baltimore Orioles", 
+      "wins": 85, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Baltimore Orioles", 
+      "wins": 96, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Baltimore Orioles", 
+      "wins": 81, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Baltimore Orioles", 
+      "wins": 89, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Baltimore Orioles", 
+      "wins": 47, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "team": "Boston Red Sox", 
+      "wins": 97, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "team": "Boston Red Sox", 
+      "wins": 71, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "team": "Boston Red Sox", 
+      "wins": 78, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "team": "Boston Red Sox", 
+      "wins": 93, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.64, 
+      "team": "Boston Red Sox", 
+      "wins": 108, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "team": "Chicago Cubs", 
+      "wins": 66, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "team": "Chicago Cubs", 
+      "wins": 73, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "team": "Chicago Cubs", 
+      "wins": 97, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "team": "Chicago Cubs", 
+      "wins": 103, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.46, 
+      "team": "Chicago Cubs", 
+      "wins": 95, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Chicago White Sox", 
+      "wins": 63, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Chicago White Sox", 
+      "wins": 73, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Chicago White Sox", 
+      "wins": 76, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Chicago White Sox", 
+      "wins": 78, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Chicago White Sox", 
+      "wins": 62, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "team": "Cincinnati Reds", 
+      "wins": 90, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "team": "Cincinnati Reds", 
+      "wins": 76, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "team": "Cincinnati Reds", 
+      "wins": 64, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "team": "Cincinnati Reds", 
+      "wins": 68, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.44, 
+      "team": "Cincinnati Reds", 
+      "wins": 67, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Cleveland Indians", 
+      "wins": 92, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Cleveland Indians", 
+      "wins": 85, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Cleveland Indians", 
+      "wins": 81, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Cleveland Indians", 
+      "wins": 94, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Cleveland Indians", 
+      "wins": 91, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "team": "Colorado Rockies", 
+      "wins": 74, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "team": "Colorado Rockies", 
+      "wins": 66, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "team": "Colorado Rockies", 
+      "wins": 68, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "team": "Colorado Rockies", 
+      "wins": 75, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.33, 
+      "team": "Colorado Rockies", 
+      "wins": 91, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Detroit Tigers", 
+      "wins": 93, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Detroit Tigers", 
+      "wins": 90, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Detroit Tigers", 
+      "wins": 74, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Detroit Tigers", 
+      "wins": 86, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Detroit Tigers", 
+      "wins": 64, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "Houston Astros", 
+      "wins": 51, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "Houston Astros", 
+      "wins": 70, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "Houston Astros", 
+      "wins": 86, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "Houston Astros", 
+      "wins": 84, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "Houston Astros", 
+      "wins": 103, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Kansas City Royals", 
+      "wins": 86, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Kansas City Royals", 
+      "wins": 89, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Kansas City Royals", 
+      "wins": 95, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Kansas City Royals", 
+      "wins": 81, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Kansas City Royals", 
+      "wins": 58, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "team": "Los Angeles Angels", 
+      "wins": 78, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "team": "Los Angeles Angels", 
+      "wins": 98, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "team": "Los Angeles Angels", 
+      "wins": 85, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "team": "Los Angeles Angels", 
+      "wins": 74, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.3, 
+      "team": "Los Angeles Angels", 
+      "wins": 80, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Los Angeles Dodgers", 
+      "wins": 92, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Los Angeles Dodgers", 
+      "wins": 94, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Los Angeles Dodgers", 
+      "wins": 92, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Los Angeles Dodgers", 
+      "wins": 91, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Los Angeles Dodgers", 
+      "wins": 92, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Miami Marlins", 
+      "wins": 62, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Miami Marlins", 
+      "wins": 77, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Miami Marlins", 
+      "wins": 71, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Miami Marlins", 
+      "wins": 79, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Miami Marlins", 
+      "wins": 63, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Milwaukee Brewers", 
+      "wins": 74, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Milwaukee Brewers", 
+      "wins": 82, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Milwaukee Brewers", 
+      "wins": 68, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Milwaukee Brewers", 
+      "wins": 73, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Milwaukee Brewers", 
+      "wins": 96, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Minnesota Twins", 
+      "wins": 66, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Minnesota Twins", 
+      "wins": 70, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Minnesota Twins", 
+      "wins": 83, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Minnesota Twins", 
+      "wins": 59, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.39, 
+      "team": "Minnesota Twins", 
+      "wins": 78, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "team": "New York Mets", 
+      "wins": 74, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "team": "New York Mets", 
+      "wins": 79, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "team": "New York Mets", 
+      "wins": 90, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "team": "New York Mets", 
+      "wins": 87, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.49, 
+      "team": "New York Mets", 
+      "wins": 77, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "New York Yankees", 
+      "wins": 85, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "New York Yankees", 
+      "wins": 84, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "New York Yankees", 
+      "wins": 87, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "New York Yankees", 
+      "wins": 84, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "New York Yankees", 
+      "wins": 100, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Oakland Athletics", 
+      "wins": 96, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Oakland Athletics", 
+      "wins": 88, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Oakland Athletics", 
+      "wins": 68, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Oakland Athletics", 
+      "wins": 69, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Oakland Athletics", 
+      "wins": 97, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "team": "Philadelphia Phillies", 
+      "wins": 73, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "team": "Philadelphia Phillies", 
+      "wins": 73, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "team": "Philadelphia Phillies", 
+      "wins": 63, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "team": "Philadelphia Phillies", 
+      "wins": 71, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.4, 
+      "team": "Philadelphia Phillies", 
+      "wins": 80, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Pittsburgh Pirates", 
+      "wins": 94, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Pittsburgh Pirates", 
+      "wins": 88, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Pittsburgh Pirates", 
+      "wins": 98, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Pittsburgh Pirates", 
+      "wins": 78, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.35, 
+      "team": "Pittsburgh Pirates", 
+      "wins": 82, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "San Diego Padres", 
+      "wins": 76, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "San Diego Padres", 
+      "wins": 77, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "San Diego Padres", 
+      "wins": 74, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "San Diego Padres", 
+      "wins": 68, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.37, 
+      "team": "San Diego Padres", 
+      "wins": 66, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "team": "San Francisco Giants", 
+      "wins": 76, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "team": "San Francisco Giants", 
+      "wins": 88, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "team": "San Francisco Giants", 
+      "wins": 84, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "team": "San Francisco Giants", 
+      "wins": 87, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.51, 
+      "team": "San Francisco Giants", 
+      "wins": 73, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Seattle Mariners", 
+      "wins": 71, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Seattle Mariners", 
+      "wins": 87, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Seattle Mariners", 
+      "wins": 76, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Seattle Mariners", 
+      "wins": 86, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Seattle Mariners", 
+      "wins": 89, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "St. Louis Cardinals", 
+      "wins": 97, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "St. Louis Cardinals", 
+      "wins": 90, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "St. Louis Cardinals", 
+      "wins": 100, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "St. Louis Cardinals", 
+      "wins": 86, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.5, 
+      "team": "St. Louis Cardinals", 
+      "wins": 88, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Tampa Bay Rays", 
+      "wins": 92, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Tampa Bay Rays", 
+      "wins": 77, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Tampa Bay Rays", 
+      "wins": 80, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Tampa Bay Rays", 
+      "wins": 68, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.42, 
+      "team": "Tampa Bay Rays", 
+      "wins": 90, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "team": "Texas Rangers", 
+      "wins": 91, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "team": "Texas Rangers", 
+      "wins": 67, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "team": "Texas Rangers", 
+      "wins": 88, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "team": "Texas Rangers", 
+      "wins": 95, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.34, 
+      "team": "Texas Rangers", 
+      "wins": 67, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Toronto Blue Jays", 
+      "wins": 74, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Toronto Blue Jays", 
+      "wins": 83, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Toronto Blue Jays", 
+      "wins": 93, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Toronto Blue Jays", 
+      "wins": 89, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.48, 
+      "team": "Toronto Blue Jays", 
+      "wins": 73, 
+      "year": 2018
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Washington Nationals", 
+      "wins": 86, 
+      "year": 2013
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Washington Nationals", 
+      "wins": 96, 
+      "year": 2014
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Washington Nationals", 
+      "wins": 83, 
+      "year": 2015
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Washington Nationals", 
+      "wins": 95, 
+      "year": 2016
+    }, 
+    {
+      "Average_Price_per_Ounce": 0.45, 
+      "team": "Washington Nationals", 
+      "wins": 82, 
+      "year": 2018
+    }
+  ]

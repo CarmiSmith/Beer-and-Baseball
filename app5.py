@@ -8,23 +8,26 @@ from flask import Flask, jsonify, render_template
 import json
 from flask_cors import CORS
 
-engine = create_engine("postgresql+psycopg2://postgres:postgres@localhost:5433/MLB")
+engine = create_engine(
+    "postgresql+psycopg2://postgres:Planning4future@@localhost:5432/Baseball")
 cursor = engine.connect()
 postgreSQL_select_Query = "select * from mlb_wins"
 win_records = cursor.execute(postgreSQL_select_Query)
 postgreSQL_select_Query1 = "select * from mlb_beer_prices"
-beer_records = cursor.execute(postgreSQL_select_Query1)    
+beer_records = cursor.execute(postgreSQL_select_Query1)
 postgreSQL_select_Query1 = "select * from mlb_combined_data"
-beerwin_records = cursor.execute(postgreSQL_select_Query1)    
+beerwin_records = cursor.execute(postgreSQL_select_Query1)
 postgreSQL_select_Query1 = "select * from average"
-average_records = cursor.execute(postgreSQL_select_Query1)  
+average_records = cursor.execute(postgreSQL_select_Query1)
 postgreSQL_select_Query1 = "select * from averagecity"
-beercity_avg_records = cursor.execute(postgreSQL_select_Query1)  
+beercity_avg_records = cursor.execute(postgreSQL_select_Query1)
 postgreSQL_select_Query1 = "select * from teambeers"
-teambeers_records = cursor.execute(postgreSQL_select_Query1)   
+teambeers_records = cursor.execute(postgreSQL_select_Query1)
 
 app = Flask(__name__)
 CORS(app)
+
+
 @app.route('/')
 def welcome():
     print("Server received request for 'Home' page...")
@@ -40,6 +43,7 @@ def welcome():
 
     )
 
+
 @app.route("/wins")
 def teams_win():
     team_data = []
@@ -52,13 +56,14 @@ def teams_win():
         team_data.append(teams_dict)
     return jsonify(team_data)
 
+
 @app.route("/beerprices")
 def beer_prices():
 
     beer_price = []
 
     for row in beer_records:
-        beer_dict={}
+        beer_dict = {}
         beer_dict['Year'] = row[0]
         beer_dict['Team'] = row[1]
         beer_dict['Nickname'] = row[2]
@@ -68,6 +73,7 @@ def beer_prices():
         beer_dict['Price_per_Ounce'] = float(row[6])
         beer_price.append(beer_dict)
     return jsonify(beer_price)
+
 
 @app.route("/beerwins")
 def beer_wins():
@@ -80,12 +86,13 @@ def beer_wins():
         beerwin_dict["size"] = row[3]
         beerwin_dict["price_per_ouce"] = float(row[4])
         beerwin_dict["number_of_games"] = row[5]
-        beerwin_dict["wins"] = row[6]       
+        beerwin_dict["wins"] = row[6]
         beerwin_data.append(beerwin_dict)
     return jsonify(beerwin_data)
 
+
 @app.route("/averages")
-def beer_average ():
+def beer_average():
     beer_avg_data = []
     for row in average_records:
         avg_dict = {}
@@ -94,8 +101,9 @@ def beer_average ():
         beer_avg_data.append(avg_dict)
     return jsonify(beer_avg_data)
 
+
 @app.route("/averagecity")
-def beercity_average ():
+def beercity_average():
     beercity_avg_data = []
     for row in beercity_avg_records:
         beercity_avg_dict = {}
@@ -106,17 +114,26 @@ def beercity_average ():
         beercity_avg_data.append(beercity_avg_dict)
     return jsonify(beercity_avg_data)
 
+
 @app.route("/teambeers")
-def team_beer ():
+def team_beer():
     team_beer_data = []
     for row in teambeers_records:
         team_beer_dict = {}
+<<<<<<< HEAD
         team_beer_dict ["team"] = row[0]
         team_beer_dict ["price_per_ounce"] = float(row[1])
         team_beer_dict ["year"] = row[2]
         team_beer_dict ["wins"] = row[3]
+=======
+        team_beer_dict["team"] = row[0]
+        team_beer_dict["Average_Price_per_Ounce"] = float(row[1])
+        team_beer_dict["year"] = row[2]
+        team_beer_dict["wins"] = row[3]
+>>>>>>> 2d62e9b9034a044aeede3f0a9480a45341c22c62
         team_beer_data.append(team_beer_dict)
     return jsonify(team_beer_data)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
