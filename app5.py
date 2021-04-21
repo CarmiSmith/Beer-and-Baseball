@@ -102,6 +102,7 @@ def beercity_average ():
         beercity_avg_dict["team"] = row[0]
         beercity_avg_dict["city"] = row[1]
         beercity_avg_dict["Average_Price_per_Ounce"] = float(row[2])
+        beercity_avg_dict["Wins"] = float(row[3])
         beercity_avg_data.append(beercity_avg_dict)
     return jsonify(beercity_avg_data)
 
@@ -111,7 +112,7 @@ def team_beer ():
     for row in teambeers_records:
         team_beer_dict = {}
         team_beer_dict ["team"] = row[0]
-        team_beer_dict ["Average_Price_per_Ounce"] = float(row[1])
+        team_beer_dict ["price_per_ounce"] = float(row[1])
         team_beer_dict ["year"] = row[2]
         team_beer_dict ["wins"] = row[3]
         team_beer_data.append(team_beer_dict)
