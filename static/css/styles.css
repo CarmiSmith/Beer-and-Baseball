@@ -35,7 +35,14 @@
     border-style: solid;  
   }
 
-  /* This CSS styles the ufo icon in the navbar */
+    /* The hover border*/
+    .active, .panel:hover {
+      border-color:rgb(19, 43, 250);
+      border-style: solid;  
+    }
+
+
+  /* This CSS styles the header +-+++++++++++++++++++++++in the navbar */
 .nav-bg {
     position: absolute;
     bottom: 5px;
@@ -164,6 +171,8 @@ h4 {
       opacity: 1;
     }
   }
+
+  /* This is for the map hmtl only*/
    /* link, map and tool for the map */ 
   .link-group:hover {
     background-color: lightblue;
