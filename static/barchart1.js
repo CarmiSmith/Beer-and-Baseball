@@ -84,8 +84,11 @@ function buildCharts(selection) {
            height: 600,
            width: 1000,
            xaxis: {
-               title: "Beer and Baseball"
-           }
+               title: "Wins (Year)"
+           },
+           yaxis: {
+              title: "Price per Ounce"
+        }
        };
 
        Plotly.newPlot("bubble", bubbleData, layout);
