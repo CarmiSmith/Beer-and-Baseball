@@ -1,182 +1,272 @@
 [
   {
-    "Average_Price_per_Ounce": 0.45, 
+    "Average_Price_per_Ounce": 0.39, 
     "Wins": 82.0, 
-    "city": "Seattle", 
-    "team": "Seattle Mariners"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.42, 
-    "Wins": 81.0, 
-    "city": "Detroit", 
-    "team": "Detroit Tigers"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.45, 
-    "Wins": 80.0, 
-    "city": "Atlanta", 
-    "team": "Atlanta Braves"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.42, 
-    "Wins": 81.0, 
-    "city": "Tampa", 
-    "team": "Tampa Bay Rays"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.4, 
-    "Wins": 72.0, 
-    "city": "Philadelphia", 
-    "team": "Philadelphia Phillies"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.64, 
-    "Wins": 89.0, 
-    "city": "Boston", 
-    "team": "Boston Red Sox"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.29, 
-    "Wins": 75.0, 
-    "city": "Arizona", 
-    "team": "Arizona Diamondbacks"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.44, 
-    "Wins": 73.0, 
-    "city": "Cincinnati", 
-    "team": "Cincinnati Reds"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.35, 
-    "Wins": 92.0, 
-    "city": "Los Angeles", 
-    "team": "Los Angeles Dodgers"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.35, 
-    "Wins": 88.0, 
-    "city": "Pittsburgh", 
-    "team": "Pittsburgh Pirates"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.51, 
-    "Wins": 82.0, 
-    "city": "San Francisco", 
-    "team": "San Francisco Giants"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.34, 
-    "Wins": 82.0, 
-    "city": "Arlington", 
-    "team": "Texas Rangers"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.5, 
-    "Wins": 92.0, 
-    "city": "St. Louis", 
-    "team": "St. Louis Cardinals"
+    "city": "Kansas City", 
+    "latitude": 39.051672, 
+    "longitude": -94.354538, 
+    "stadium": "Kauffman Stadium", 
+    "team": "Kansas City Royals"
   }, 
   {
     "Average_Price_per_Ounce": 0.37, 
     "Wins": 72.0, 
     "city": "San Diego", 
+    "latitude": 32.707656, 
+    "longitude": -117.156904, 
+    "stadium": "Petco Park", 
     "team": "San Diego Padres"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.46, 
-    "Wins": 87.0, 
-    "city": "Chicago", 
-    "team": "Chicago Cubs"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.39, 
-    "Wins": 80.0, 
-    "city": "Baltimore", 
-    "team": "Baltimore Orioles"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.39, 
-    "Wins": 71.0, 
-    "city": "Minnesota", 
-    "team": "Minnesota Twins"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.33, 
-    "Wins": 75.0, 
-    "city": "Colorado", 
-    "team": "Colorado Rockies"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.42, 
-    "Wins": 70.0, 
-    "city": "Chicago", 
-    "team": "Chicago White Sox"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.39, 
-    "Wins": 82.0, 
-    "city": "Kansas City", 
-    "team": "Kansas City Royals"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.39, 
-    "Wins": 79.0, 
-    "city": "Milwaukee", 
-    "team": "Milwaukee Brewers"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.3, 
-    "Wins": 83.0, 
-    "city": "Anaheim", 
-    "team": "Los Angeles Angels"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.45, 
-    "Wins": 88.0, 
-    "city": "Washington", 
-    "team": "Washington Nationals"
-  }, 
-  {
-    "Average_Price_per_Ounce": 0.49, 
-    "Wins": 81.0, 
-    "city": "New York", 
-    "team": "New York Mets"
   }, 
   {
     "Average_Price_per_Ounce": 0.48, 
     "Wins": 82.0, 
     "city": "Toronto", 
+    "latitude": 43.641438, 
+    "longitude": -79.389353, 
+    "stadium": "Rogers Centre", 
     "team": "Toronto Blue Jays"
   }, 
   {
-    "Average_Price_per_Ounce": 0.5, 
+    "Average_Price_per_Ounce": 0.45, 
     "Wins": 88.0, 
-    "city": "New York", 
-    "team": "New York Yankees"
+    "city": "Washington D.C.", 
+    "latitude": 38.87301, 
+    "longitude": -77.007433, 
+    "stadium": "Nationals Park", 
+    "team": "Washington Nationals"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.46, 
+    "Wins": 87.0, 
+    "city": "Chicago", 
+    "latitude": 41.948438, 
+    "longitude": -873655333.0, 
+    "stadium": "Wrigley Field", 
+    "team": "Chicago Cubs"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.49, 
+    "Wins": 81.0, 
+    "city": "New York City", 
+    "latitude": 40.757088, 
+    "longitude": -73.845821, 
+    "stadium": "Citi Field", 
+    "team": "New York Mets"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "Wins": 81.0, 
+    "city": "Detroit", 
+    "latitude": 42.338998, 
+    "longitude": -83.04852, 
+    "stadium": "Comerica Park", 
+    "team": "Detroit Tigers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.34, 
+    "Wins": 82.0, 
+    "city": "Arlington", 
+    "latitude": 32.75128, 
+    "longitude": -97.082504, 
+    "stadium": "Globe Life Park", 
+    "team": "Texas Rangers"
   }, 
   {
     "Average_Price_per_Ounce": 0.48, 
     "Wins": 70.0, 
     "city": "Miami", 
+    "latitude": 25.778318, 
+    "longitude": -80.219597, 
+    "stadium": "LoanDepot Park", 
     "team": "Miami Marlins"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.33, 
+    "Wins": 75.0, 
+    "city": "Denver", 
+    "latitude": 39.755882, 
+    "longitude": -104.994178, 
+    "stadium": "Coors Field", 
+    "team": "Colorado Rockies"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "Wins": 81.0, 
+    "city": "Tampa", 
+    "latitude": 27.768225, 
+    "longitude": -82.653392, 
+    "stadium": "Tropicana Field", 
+    "team": "Tampa Bay Rays"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.44, 
+    "Wins": 73.0, 
+    "city": "Cincinnati", 
+    "latitude": 39.097931, 
+    "longitude": -84.508151, 
+    "stadium": "Great American Ball Park", 
+    "team": "Cincinnati Reds"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "Wins": 80.0, 
+    "city": "Baltimore", 
+    "latitude": 39.284052, 
+    "longitude": -76.621512, 
+    "stadium": "Oriole Park of Camden Yards", 
+    "team": "Baltimore Orioles"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.5, 
+    "Wins": 88.0, 
+    "city": "New York City", 
+    "latitude": 40.829643, 
+    "longitude": -73.926175, 
+    "stadium": "Yankee Stadium", 
+    "team": "New York Yankees"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.4, 
+    "Wins": 72.0, 
+    "city": "Philadelphia", 
+    "latitude": 39.906057, 
+    "longitude": -75.166495, 
+    "stadium": "Citizens Bank Park", 
+    "team": "Philadelphia Phillies"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "Wins": 71.0, 
+    "city": "Minnesota", 
+    "latitude": 44.981712, 
+    "longitude": -93.27776, 
+    "stadium": "Target Field", 
+    "team": "Minnesota Twins"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.5, 
+    "Wins": 92.0, 
+    "city": "St. Louis", 
+    "latitude": 38.622619, 
+    "longitude": -90.192821, 
+    "stadium": "Busch Stadium", 
+    "team": "St. Louis Cardinals"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.29, 
+    "Wins": 75.0, 
+    "city": "Phoenix", 
+    "latitude": 33.445526, 
+    "longitude": -112.066664, 
+    "stadium": "Chase Field", 
+    "team": "Arizona Diamondbacks"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "Wins": 89.0, 
+    "city": "Cleveland", 
+    "latitude": 41.496211, 
+    "longitude": -81.685229, 
+    "stadium": "Progressive Field", 
+    "team": "Cleveland Indians"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.45, 
+    "Wins": 82.0, 
+    "city": "Seattle", 
+    "latitude": 47.591391, 
+    "longitude": -122.332327, 
+    "stadium": "T-Mobile Park", 
+    "team": "Seattle Mariners"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "Wins": 88.0, 
+    "city": "Pittsburgh", 
+    "latitude": 40.446855, 
+    "longitude": -80.005666, 
+    "stadium": "PNC Park", 
+    "team": "Pittsburgh Pirates"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.35, 
+    "Wins": 92.0, 
+    "city": "Los Angeles", 
+    "latitude": 34.073851, 
+    "longitude": -118.239958, 
+    "stadium": "Dodger Stadium", 
+    "team": "Los Angeles Dodgers"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.42, 
+    "Wins": 70.0, 
+    "city": "Chicago", 
+    "latitude": 41.829902, 
+    "longitude": -87.633752, 
+    "stadium": "Guaranteed Rate Field", 
+    "team": "Chicago White Sox"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.45, 
+    "Wins": 80.0, 
+    "city": "Atlanta", 
+    "latitude": 33.8907, 
+    "longitude": -84.467684, 
+    "stadium": "SunTrust Park", 
+    "team": "Atlanta Braves"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.64, 
+    "Wins": 89.0, 
+    "city": "Boston", 
+    "latitude": 42.346676, 
+    "longitude": -71.077218, 
+    "stadium": "Fenway Park", 
+    "team": "Boston Red Sox"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.39, 
+    "Wins": 79.0, 
+    "city": "Milwaukee", 
+    "latitude": 43.027978, 
+    "longitude": -87.97115, 
+    "stadium": "American Family Field", 
+    "team": "Milwaukee Brewers"
   }, 
   {
     "Average_Price_per_Ounce": 0.37, 
     "Wins": 79.0, 
     "city": "Houston", 
+    "latitude": 29.757697, 
+    "longitude": -95.354538, 
+    "stadium": "Minute Maid Park", 
     "team": "Houston Astros"
   }, 
   {
     "Average_Price_per_Ounce": 0.42, 
     "Wins": 84.0, 
     "city": "Oakland", 
+    "latitude": 37.752483, 
+    "longitude": -122.19821, 
+    "stadium": "RingCentral Coliseum", 
     "team": "Oakland Athletics"
   }, 
   {
-    "Average_Price_per_Ounce": 0.35, 
-    "Wins": 89.0, 
-    "city": "Cleveland", 
-    "team": "Cleveland Indians"
+    "Average_Price_per_Ounce": 0.3, 
+    "Wins": 83.0, 
+    "city": "Anaheim", 
+    "latitude": 33.800308, 
+    "longitude": -117.882732, 
+    "stadium": "Angles Stadium", 
+    "team": "Los Angeles Angels"
+  }, 
+  {
+    "Average_Price_per_Ounce": 0.51, 
+    "Wins": 82.0, 
+    "city": "San Francisco", 
+    "latitude": 37.778595, 
+    "longitude": -122.38927, 
+    "stadium": "Oracle Park", 
+    "team": "San Francisco Giants"
   }
 ]
