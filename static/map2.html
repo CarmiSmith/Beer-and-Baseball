@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <body style="background-color:rgb(95, 108, 110);"></body>
     <meta charset="UTF-8">
@@ -8,7 +9,10 @@
     <title>MLB Drinking Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
@@ -16,8 +20,16 @@
     <script>var ml = { timelines: {}};</script>
 </head>
 
-<!-- setting up the Content, Padding, Border and the Margin  -->
-<body><!-- Setting up the body -->
+<body>
+    <div class="container-fluid">
+
+        <!-- Header Bar -->
+        <!-- <div class="row border-bottom bg-dark p-5">
+            <div class="col text-center">
+                <h1 class="text-light">MLB Dashboard</h1>
+            </div>
+        </div> -->
+
         <div class="wrapper">
             <nav class="navbar navbar-default">
               <!-- Setting up moving container -->
@@ -49,112 +61,88 @@
         <!-- Body -->
         <div class="row">
 
-    <!-- Side Bar / Menu -->
-    <div style="position:relative; left:40px; top:85px">
-        <div class="col-lg-6 border-right bg-light text-center">
-            <div class="pt-2">
-                <div class="container p-4 border-bottom link-group">
-                    <h7>Interactive Graphs For Beer Cost</h7>
-                    <a href="/">
-                        <img class="panel" src="images/BBB.jpeg" class="img-fluid pt-4" width="125" alt="Graphs">
-                    </a>
+            <!-- Side Bar / Menu -->
+ 
+            <div style="position:relative; left:40px; top:85px">
+                <div class="col-lg-6 border-right bg-light text-center">
+                    <div class="pt-4">
+                        <div class="container p-4 border-bottom link-group">
+                            <h7>Interactive Graphs For Beer Cost</h7>
+                            <a href="index_new.html">
+                                <img class="panel img-fluid pt-4" src="images/BBB.jpeg" width="125" alt="Graphs">
+                            </a>
+                        </div>
+                        <div class="container p-4 border-bottom link-group">
+                            <h7>Interactive Maps For Locations</h7>
+            
+    
+            
+            
+                            <a href="map2.html">
+                                <img class="panel" src="images/pinmap.png" class="img-fluid pt-4" width="125" alt="Graphs">
+ 
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="container p-4 border-bottom link-group">
-                    <h7>Interactive Maps For Locations</h7>
-                    <a href="/map">
-                        <img class="panel" src="images/pinmap.png" class="img-fluid pt-4" width="125" alt="Graphs">
-                    </a>
                 </div>
-            </div>
-        </div>
-        </div>
             <!-- Main Content Area -->
             <div class="col-lg-10 text-center mb-5">
 
                 <!-- Jumbotron and form -->
-                <div style="position:relative; left:40px; top:-100px">
-                    <div style="position:relative; left:290px; top:-285px">
-                <div style="background-color:rgb(80, 90, 90);"class="jumbotron container p-5 mt-3">
-                    <h2 class="display-7" style="color:rgb(39, 45, 66)">Explore the Cost of Beer at the top MLB Statiums!</h2>
+                <div style="position:relative; left: 200px; top:-380px">
+                <div class="jumbotron container p-5 mt-3">
+                    <h1 class="display-4">Explore MLB Dataset!</h1>
                     <hr class="my-4">
-                    <p style="color:rgb(252, 251, 250)" class="lead">Choose your stadium to see where you can get the best price of beer on the map below!</p>
-                    <div class="row border rounded border-dark px-lg-5 py-3 m-2">
-                        <div class="col-lg-2 text-md-right">
-                            <p style="color:rgb(29, 38, 70)" class="mt-2">Team:</p>
-                        </div>
-                        <div class="col-lg-10 pr-lg-5">
-                            <select class="form-control my-1" id="table-selector-dropdown">
-                                {% for option in options %}
-                                <option>{{option}}</option>
-                                {% endfor %}
-                            </select>
-                        </div>   
-            
-                    </div>
-                    
-                    <div class="row mt-3">
-                        <div class="col-lg-10 text-lg-right pt-2">
-                            <p>Submit your choices to see the results below!</p>
-                        </div>
-                        <div class="col-lg-2 text-lg-left">
-                            <button class="btn btn-primary" type="submit" id="submitBtn">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            
-                
+                    <p class="lead">Have you ever wondered what the price of beer is at all MLB stadiums?  Well lets take a look at the average price 
+                        of beer at each stadium and compare it to the team wins as well.  
+                    </p>
+
                 <!-- Map -->
                 <div class="container border py-3 rounded">
                     <div id="map"></div>
                 </div>
             </div>
         </div>
+    </div>
 
-    <!-- Main Content Area -->
-    <div class="col-lg-10 text-center mb-5">
-    </div>
     <script>
-        // Wrap every letter in a span (Moving Titles)
-        $('.ml13').each(function(){
-            $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-        });
-            
-        ml.timelines["ml13"] = anime.timeline({loop: true})
-            .add({
-                targets: '.ml13 .letter',
-                translateY: [100,0],
-                translateZ: 0,
-                opacity: [0,1],
-                easing: "easeOutExpo",
-                duration: 1400,
-                delay: function(el, i) {
-                    return 300 + 30 * i;
+    // Wrap every letter in a span (Moving Titles) in header box (from anime)
+    $('.ml13').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+    });
+        
+    ml.timelines["ml13"] = anime.timeline({loop: true})
+        .add({
+            targets: '.ml13 .letter',
+            translateY: [100,0],
+            translateZ: 0,
+            opacity: [0,1],
+            easing: "easeOutExpo",
+            duration: 1400,
+            delay: function(el, i) {
+                return 300 + 30 * i;
+        }
+        }).add({
+            targets: '.ml13 .letter',
+            translateY: [0,-100],
+            opacity: [1,0],
+            easing: "easeInExpo",
+            duration: 1200,
+            delay: function(el, i) {
+              return 100 + 30 * i;
             }
-            }).add({
-                targets: '.ml13 .letter',
-                translateY: [0,-100],
-                opacity: [1,0],
-                easing: "easeInExpo",
-                duration: 1200,
-                delay: function(el, i) {
-                  return 100 + 30 * i;
-                }
-            });
-    </script>
-    
-    </thead>
-    <tbody></tbody>
-    </table>
-    </div>
-    </div>
-    </div>
-    </div>
+        });
+</script>
 
         <!-- Footer -->
-        <div class="row bg-dark border-top border-dark p-3">
+        <!-- <div class="row bg-dark border-top border-dark p-3">
             <div class="col-9">
                 <p class="text-light pt-3">* This website is not affiliated, endorsed, or sponsored by the Major League Baseball. Stats courtesy of <a href="https://www.baseball-reference.com/leagues/MLB/index.shtml" class="text-light">baseballreference.com</a></p>
             </div>
+
+        </div> -->
+    </div>
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
